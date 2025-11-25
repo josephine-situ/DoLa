@@ -1,34 +1,53 @@
-DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models
-===
+## Engaging Setup
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)
-[![Arxiv](https://img.shields.io/badge/arXiv-2309.03883-B21A1B)](https://arxiv.org/abs/2309.03883)
-[![Hugging Face Transformers](https://img.shields.io/badge/%F0%9F%A4%97-Transformers-blue)](https://github.com/huggingface/transformers)
-[![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/YungSungChuang/status/1701623359153316255)
-[![GitHub Stars](https://img.shields.io/github/stars/voidism/DoLa?style=social)](https://github.com/voidism/DoLa/stargazers)
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/voidism/DoLa/blob/master/dola_evaluation.ipynb)
-
-Code for the ICLR 2024 paper "DoLa: Decoding by Contrasting Layers Improves Factuality in Large Language Models"
-
-Paper: https://arxiv.org/abs/2309.03883  
-Authors: [Yung-Sung Chuang](https://people.csail.mit.edu/yungsung/) $^\dagger$, [Yujia Xie](https://sites.google.com/view/yujia) $^\ddagger$, [Hongyin Luo](https://luohongyin.github.io/) $^\dagger$, [Yoon Kim](https://people.csail.mit.edu/yoonkim/) $^\dagger$, [James Glass](https://people.csail.mit.edu/jrg/) $^\dagger$, [Pengcheng He](https://scholar.google.com/citations?user=TS1RoxAAAAAJ&hl=en) $^\ddagger$  
-$^\dagger$ Massachusetts Institute of Technology, $^\ddagger$ Microsoft
-
-## Overview
-
-![DoLa](figure.png)
-
-Despite their impressive capabilities, large language models (LLMs) are prone to hallucinations, i.e., generating content that deviates from  facts seen during pretraining. We propose a simple decoding strategy for reducing hallucinations with pretrained LLMs that does not require conditioning on retrieved external knowledge nor additional fine-tuning. Our approach obtains the next-token distribution by contrasting the differences in logits obtained from projecting the later layers versus earlier layers to the vocabulary space, exploiting the fact that factual knowledge in an LLMs has generally been shown to be localized to particular transformer layers. We find that this **D**ecoding by c**o**ntrasting **La**yers (DoLA) approach is able to better surface factual knowledge and reduce the generation of incorrect facts.  DoLA consistently improves the truthfulness across multiple choices tasks and open-ended generation tasks, for example improving performance of LLaMA family models on TruthfulQA by 12-17\% absolute points, demonstrating its potential in making LLMs reliably generate truthful facts.
-
-## Setup
+1. Log in [here](https://engaging-ood.mit.edu/)
+2. Files > Home Directory > Open in Terminal
 
 ```
+# Unload default module
+module unload sloan/config
+
+# Clone repo
+git clone https://github.com/josephine-situ/DoLa.git
+
+# Enter directory
+cd DoLa
+
+# Create and activate environment
+module load miniforge
+conda create -n dola_env
+conda activate dola_env
+
+# Install dependencies
 pip install -e transformers-4.28.1
-pip install datasets
-pip install accelerate
-pip install openai # -> only for truthfulqa and gpt4_eval
+pip install -r requirements.txt
 ```
+
+## Engaging Test
+```
+# Request interactive job with GPUs
+salloc -p mit_normal_gpu --gres=gpu:1
+
+# Create results directory
+mkdir results
+
+# Test Vanilla LLaMA-7B
+python tfqa_mc_eval.py --model-name huggyllama/llama-7b --data-path data --output-path results/vanilla.json --num-gpus 1
+
+# Test Dola 0-th layer LLaMA-7B
+python tfqa_mc_eval.py --model-name huggyllama/llama-7b --early-exit-layers 0,32 --data-path data --output-path results/dola_0.json --num-gpus 1
+
+# When done release node
+scancel --me
+```
+
+## Engaging Test Output
+
+### Vanilla LLaMA-7B
+Avergaed MC1: 0.23924050632911392 MC2: 0.39244010990950456 MC3: 0.18107494474583077
+
+### Dola 0-th layer LLaMA-7B
+Avergaed MC1: 0.32531645569620254 MC2: 0.6311135331543666 MC3: 0.3086824392204142
 
 ## Experiments
 

@@ -91,7 +91,7 @@ if __name__ == "__main__":
     num_gpus = args.num_gpus
     device = args.device
 
-    list_data_dict = load_csv(args.data_path)
+    list_data_dict = load_json(args.data_path)
     
     llm = DoLa(model_name, device, num_gpus, args.max_gpu_memory)
     # stop_word_list = ["Q:"]

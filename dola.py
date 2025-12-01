@@ -137,10 +137,19 @@ class DoLa:
                 end   = T_total - 1
                 answer_logprobs_slice = outputs[start:end, :]   # shape: (T_answer, vocab)   
 
+                print("Question: ", input_text1)
+                print("Answer: ", input_text2)
+                print("Full Input: ", input_text)
+                print("Input IDs: ", input_ids)
+                print("prefix_ids: ", prefix_ids)
+                print("continue_ids: ", continue_ids)
+                print("T_total: ", T_total)
+                print("T_prompt: ", T_prompt)
+                print("T_answer: ", T_answer)
                 print("answer_logprobs_slice.shape: ", answer_logprobs_slice.shape)
 
                 # get logprobs for each token in the answer
-                log_probs = answer_logprobs_slice[torch.arange(T_answer), continue_ids].sum().item()
+                log_probs = answer_logprobs_slice[torch.arange(answer_logprobs_slice.shape[0]), continue_ids].sum().item()
                 
             elif mode == 'dola-static':
                 dict_outputs, outputs = self.model(

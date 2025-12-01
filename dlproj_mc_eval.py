@@ -21,7 +21,7 @@ def load_json(file_path):
     df = pd.read_json(file_path, orient="records", lines=True)
     list_data = []
 
-    for idx, row in enumerate(df):
+    for idx, row in df.iterrows():
         list_data.append({
             "idx": idx,
             "question": row["Question"],
@@ -76,7 +76,7 @@ if __name__ == "__main__":
     parser.add_argument("--num-gpus", type=str, default="1")
     parser.add_argument("--max_gpu_memory", type=int, default=27)
     parser.add_argument("--device", type=str, choices=["cuda", "cpu"], default="cuda")
-    parser.add_argument("--data-path", type=str, default="./datasets/data_mc.csv")
+    parser.add_argument("--data-path", type=str, default="./datasets/data_mc.json")
     parser.add_argument("--output-path", type=str, default="./results/dlproj_mc_result")
     parser.add_argument("--early-exit-layers", type=str, default="-1")
     parser.add_argument("--max-new-tokens", type=int, default=50)

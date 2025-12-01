@@ -21,15 +21,16 @@ def load_csv(file_path):
     df = pd.read_csv(file_path)
     list_data = []
 
-    for _, row in df.iterrows():
+    for idx, row in df.iterrows():
         list_data.append({
+            "idx": idx,
             "question": row["Question"],
             "type": row["Type"],
             "choices": [
-                row["Options"][0], 
-                row["Options"][1], 
-                row["Options"][2], 
-                row["Options"][3]
+                row["Options"][0],
+                row["Options"][1],
+                row["Options"][2],
+                row["Options"][3],
             ],
             "correct": int(row["Answer"])
         })
@@ -37,7 +38,7 @@ def load_csv(file_path):
     return list_data
 
 def build_prompt(question: str) -> str:
-    return f"Q: {question}\nA: "
+    return f"{question} "
 
 def MCQ_scores(logprobs, correct_idx):
     """logprobs: list of log p(answer_i | prompt)
@@ -117,60 +118,76 @@ if __name__ == "__main__":
         premature_layer_dist = {layer:0 for layer in candidate_premature_layers}
 
 
-    result_dict = {'question': [], 'model_scores': [], 'by_type': {}}
+    # holds logprobs for each MC answer for each question
+    logprob_dict = {}
 
-    def ensure_type(t):
-        if t not in result_dict["by_type"]:
-            result_dict["by_type"][t] = defaultdict(int)
+    # this is only for printing statistics
+    type_stats = defaultdict(lambda: {
+        "count": 0,
+        "accuracy": 0.0,
+        "mc2": 0.0,
+        "mrr": 0.0
+    })
 
     with torch.no_grad():
         for sample in tqdm(list_data_dict):
 
-            ensure_type(sample["type"])
-            generate_kwargs = dict(max_new_tokens=args.max_new_tokens, repetition_penalty=args.repetition_penalty, mode=mode, mature_layer=mature_layer, premature_layer=premature_layer, candidate_premature_layers=candidate_premature_layers, relative_top=args.relative_top, relative_top_value=args.relative_top_value, post_softmax=False)
+            t = sample["type"]
+            idx = sample["idx"]
+
+            generate_kwargs = dict(
+                max_new_tokens=args.max_new_tokens,
+                repetition_penalty=args.repetition_penalty,
+                mode=mode,
+                mature_layer=mature_layer,
+                premature_layer=premature_layer,
+                candidate_premature_layers=candidate_premature_layers,
+                relative_top=args.relative_top,
+                relative_top_value=args.relative_top_value,
+                post_softmax=False
+            )
 
             logprobs = []
+
+            # build prompt for this question
             prompt = build_prompt(sample["question"])
+
+            # score each choice
             for ans in sample["choices"]:
                 lp, _ = llm.lm_score(prompt, ans, **generate_kwargs)
-                logprobs.append(lp)
+                logprobs.append(lp.item())
 
+            # compute MCQ stats (ONLY for printing later)
             scores = MCQ_scores(logprobs, sample["correct"])
 
-            # update global results
-            result_dict["question"].append(sample)
-            result_dict["model_scores"].append(scores)
+            type_stats[t]["count"] += 1
+            type_stats[t]["accuracy"] += scores["accuracy"]
+            type_stats[t]["mc2"] += scores["mc2"]
+            type_stats[t]["mrr"] += scores["mrr"]
 
-            # update per-type aggregation
-            t = sample["type"]
-            result_dict["by_type"][t]["count"] += 1
-            result_dict["by_type"][t]["accuracy"] += scores["accuracy"]
-            result_dict["by_type"][t]["mc2"] += scores["mc2"]
-            result_dict["by_type"][t]["mrr"] += scores["mrr"]
+            # store ONLY what you want saved
+            logprob_dict[idx] = logprobs
 
-            # finalize per-type results
-        for t in result_dict["by_type"]:
-            c = result_dict["by_type"][t]["count"]
-            if c > 0:
-                result_dict["by_type"][t]["accuracy"] /= c
-                result_dict["by_type"][t]["mc2"] /= c
-                result_dict["by_type"][t]["mrr"] /= c
-            else:
-                result_dict["by_type"][t]["accuracy"] = 0.0
-                result_dict["by_type"][t]["mc2"] = 0.0
-                result_dict["by_type"][t]["mrr"] = 0.0
 
-    # display per type results
-    for t in result_dict["by_type"]:
-        print("\n" + "=" * 100)
+    # finalize printing
+    for t, stats in type_stats.items():
+        c = stats["count"]
+        if c > 0:
+            acc = stats["accuracy"] / c
+            mc2 = stats["mc2"] / c
+            mrr = stats["mrr"] / c
+        else:
+            acc = mc2 = mrr = 0.0
+
+        print("\n" + "="*100)
         print(f"Type: {t}")
-        print(f"Accuracy: {result_dict['by_type'][t]['accuracy']}")
-        print(f"MC2: {result_dict['by_type'][t]['mc2']}")
-        print(f"MRR: {result_dict['by_type'][t]['mrr']}")
-        print(f"Count: {result_dict['by_type'][t]['count']}")
+        print(f"Accuracy: {acc:.4f}")
+        print(f"MC2: {mc2:.4f}")
+        print(f"MRR: {mrr:.4f}")
+        print(f"Count: {c}")
 
-    # save results to a json file
-    model_tag = model_name.split('/')[-1] if model_name[-1] != '/' else model_name.split('/')[-2]
+
+    # save final logprob dictionary only
     output_file = args.output_path + ".json"
-    with open(output_file, 'w+') as f:
-        json.dump(result_dict, f)
+    with open(output_file, "w+") as f:
+        json.dump(logprob_dict, f, indent=2)

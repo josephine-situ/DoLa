@@ -124,16 +124,21 @@ class DoLa:
             input_text = input_text1 + input_text2
             input_ids = self.tokenizer(input_text, return_tensors="pt").input_ids.to(self.device)
             prefix_ids = self.tokenizer(input_text1, return_tensors="pt").input_ids.to(self.device)
-            continue_ids = input_ids[0, prefix_ids.shape[-1]:]
+            T_total = input_ids.shape[-1]
+            T_prompt = prefix_ids.shape[-1]
+            T_answer = T_total - T_prompt
+            continue_ids = input_ids[0, T_prompt:] # tokens in the answer
+
             if mode == 'baseline':
                 outputs = self.model(input_ids)[0].squeeze(0)
                 outputs = outputs.log_softmax(-1)  # logits to log probs
 
-                # skip tokens in the prompt -- we only care about the answer
-                outputs = outputs[prefix_ids.shape[-1] - 1: -1, :]
+                start = T_prompt - 1
+                end   = T_total - 1
+                answer_logprobs_slice = outputs[start:end, :]   # shape: (T_answer, vocab)   
 
                 # get logprobs for each token in the answer
-                log_probs = outputs[range(outputs.shape[0]), continue_ids].sum().item()
+                log_probs = answer_logprobs_slice[torch.arange(T_answer), continue_ids].sum().item()
                 
             elif mode == 'dola-static':
                 dict_outputs, outputs = self.model(

@@ -155,7 +155,7 @@ if __name__ == "__main__":
             # score each choice
             for ans in sample["choices"]:
                 lp, _ = llm.lm_score(prompt, ans, **generate_kwargs)
-                logprobs.append(lp.item())
+                logprobs.append(lp)
 
             # compute MCQ stats (ONLY for printing later)
             scores = MCQ_scores(logprobs, sample["correct"])

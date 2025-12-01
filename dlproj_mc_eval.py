@@ -94,8 +94,8 @@ if __name__ == "__main__":
     list_data_dict = load_csv(args.data_path)
     
     llm = DoLa(model_name, device, num_gpus, args.max_gpu_memory)
-    stop_word_list = ["Q:"]
-    llm.set_stop_words(stop_word_list)
+    # stop_word_list = ["Q:"]
+    # llm.set_stop_words(stop_word_list)
     early_exit_layers = [int(x) for x in args.early_exit_layers.split(',')]
     if len(early_exit_layers) == 1:
         print("MODE: naive decoding from the last layer", flush=True)

@@ -137,6 +137,8 @@ class DoLa:
                 end   = T_total - 1
                 answer_logprobs_slice = outputs[start:end, :]   # shape: (T_answer, vocab)   
 
+                print("answer_logprobs_slice.shape: ", answer_logprobs_slice.shape)
+
                 # get logprobs for each token in the answer
                 log_probs = answer_logprobs_slice[torch.arange(T_answer), continue_ids].sum().item()
                 

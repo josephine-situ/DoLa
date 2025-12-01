@@ -17,11 +17,11 @@ from dola import DoLa
 transformers.logging.set_verbosity(40)
 
 
-def load_csv(file_path):
-    df = pd.read_csv(file_path)
+def load_json(file_path):
+    df = pd.read_json(file_path, orient="records", lines=True)
     list_data = []
 
-    for idx, row in df.iterrows():
+    for idx, row in enumerate(df):
         list_data.append({
             "idx": idx,
             "question": row["Question"],

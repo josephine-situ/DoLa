@@ -133,7 +133,7 @@ if __name__ == "__main__":
             prompt = build_prompt(sample["question"])
             for ans in sample["choices"]:
                 lp, _ = llm.lm_score(prompt, ans, **generate_kwargs)
-                logprobs.append(lp.item())
+                logprobs.append(lp)
 
             scores = MCQ_scores(logprobs, sample["correct"])
 
@@ -159,6 +159,15 @@ if __name__ == "__main__":
                 result_dict["by_type"][t]["accuracy"] = 0.0
                 result_dict["by_type"][t]["mc2"] = 0.0
                 result_dict["by_type"][t]["mrr"] = 0.0
+
+    # display per type results
+    for t in result_dict["by_type"]:
+        print("\n" + "=" * 100)
+        print(f"Type: {t}")
+        print(f"Accuracy: {result_dict["by_type"][t]["accuracy"]}")
+        print(f"MC2: {result_dict["by_type"][t]["mc2"]}")
+        print(f"MRR: {result_dict["by_type"][t]["mrr"]}")
+        print(f"Count: {result_dict["by_type"][t]["count"]}")
 
     # save results to a json file
     model_tag = model_name.split('/')[-1] if model_name[-1] != '/' else model_name.split('/')[-2]

@@ -164,10 +164,10 @@ if __name__ == "__main__":
     for t in result_dict["by_type"]:
         print("\n" + "=" * 100)
         print(f"Type: {t}")
-        print(f"Accuracy: {result_dict["by_type"][t]["accuracy"]}")
-        print(f"MC2: {result_dict["by_type"][t]["mc2"]}")
-        print(f"MRR: {result_dict["by_type"][t]["mrr"]}")
-        print(f"Count: {result_dict["by_type"][t]["count"]}")
+        print(f"Accuracy: {result_dict['by_type'][t]['accuracy']}")
+        print(f"MC2: {result_dict['by_type'][t]['mc2']}")
+        print(f"MRR: {result_dict['by_type'][t]['mrr']}")
+        print(f"Count: {result_dict['by_type'][t]['count']}")
 
     # save results to a json file
     model_tag = model_name.split('/')[-1] if model_name[-1] != '/' else model_name.split('/')[-2]

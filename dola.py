@@ -86,6 +86,14 @@ class DoLa:
                                         top_p=top_p, top_k=top_k, temperature=temperature, stopping_criteria=self.stopping_criteria, relative_top=relative_top, 
                                         mature_layer=mature_layer, premature_layer=None, candidate_premature_layers=candidate_premature_layers, **kwargs,)
                 premature_layer_dist = outputs.premature_layer_dist
+            elif mode == 'dola-avg':
+                assert mature_layer is not None, "mature_layer must be specified"
+                assert candidate_premature_layers is not None, "candidate_premature_layers must be specified"
+                outputs = self.model.generate(input_ids, max_length=max_len, num_return_sequences=1,
+                                        output_scores=True, return_dict_in_generate=True, dola_decoding=True,
+                                        mature_layer=mature_layer, premature_layer=None, candidate_premature_layers=candidate_premature_layers,
+                                        top_p=top_p, top_k=top_k, temperature=temperature, stopping_criteria=self.stopping_criteria, relative_top=relative_top,
+                                        dola_avg=True, **kwargs)
             sequences, scores = outputs.sequences, outputs.scores
 
             # skip the tokens in the input prompt
@@ -242,6 +250,36 @@ class DoLa:
                 mixed_logprobs = final_logits - base_logits
 
                 # Convert to proper log-softmax distribution
+                if relative_top > 0.0:
+                    relative_top_mask = self.get_relative_top_filter(mixed_logprobs, relative_top)
+                    mixed_logprobs = torch.where(relative_top_mask, relative_top_value, mixed_logprobs)
+                log_probs = mixed_logprobs[torch.arange(mixed_logprobs.shape[0]), continue_ids].sum().item()
+
+            elif mode == 'dola-avg':
+                # Average distribution over candidate premature layers
+                dict_outputs, outputs = self.model(
+                    input_ids=input_ids,
+                    return_dict=True,
+                    output_attentions=False,
+                    output_hidden_states=False,
+                    early_exit_layers=candidate_premature_layers + [mature_layer],
+                )
+
+                # 1. Stack logits from all premature layers
+                stacked_premature_layers = torch.stack([dict_outputs[i][0, T_prompt - 1 : T_total - 1, :] for i in candidate_premature_layers], dim=0)  # (num_layers, T_answer, vocab)
+
+                # 2. Convert to softmax distributions and average
+                soft_prem = F.softmax(stacked_premature_layers, dim=-1)  # (num_layers, T_answer, vocab)
+                avg_soft_prem = soft_prem.mean(dim=0)  # (T_answer, vocab)
+
+                # 3. Convert average distribution back to log-space
+                base_logits = torch.log(avg_soft_prem + 1e-10)  # (T_answer, vocab)
+
+                # Mature logits over answer region
+                final_logits = dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :].log_softmax(dim=-1)
+                mixed_logprobs = final_logits - base_logits
+
+                # Apply relative_top filtering if needed
                 if relative_top > 0.0:
                     relative_top_mask = self.get_relative_top_filter(mixed_logprobs, relative_top)
                     mixed_logprobs = torch.where(relative_top_mask, relative_top_value, mixed_logprobs)

@@ -1131,6 +1131,7 @@ class GenerationMixin:
         base_layer: Optional[int] = None,
         candidate_premature_layers: Optional[List[int]] = None,
         relative_top: Optional[float] = 0.1,
+        dola_avg: Optional[bool] = None,
         contrastive_decoding: Optional[bool] = None,
         student_model = None,
         streamer: Optional["BaseStreamer"] = None,
@@ -1459,6 +1460,7 @@ class GenerationMixin:
                 base_layer=base_layer,
                 candidate_premature_layers=candidate_premature_layers,
                 relative_top=relative_top,
+                dola_avg=dola_avg,
                 streamer=streamer,
                 **model_kwargs,
             )
@@ -1557,6 +1559,7 @@ class GenerationMixin:
                 base_layer=base_layer,
                 candidate_premature_layers=candidate_premature_layers,
                 relative_top=relative_top,
+                dola_avg=dola_avg,
                 synced_gpus=synced_gpus,
                 streamer=streamer,
                 **model_kwargs,
@@ -2471,6 +2474,7 @@ class GenerationMixin:
         base_layer: Optional[int] = None,
         candidate_premature_layers: Optional[List[int]] = None,
         relative_top: float = 0.1,
+        dola_avg: Optional[bool] = None,
         logits_processor: Optional[LogitsProcessorList] = None,
         stopping_criteria: Optional[StoppingCriteriaList] = None,
         max_length: Optional[int] = None,
@@ -2626,10 +2630,13 @@ class GenerationMixin:
             early_exit_layers = [base_layer, mature_layer]
             num_base_layers = 1
             premature_layer_dist = {}
+            dola_avg = False
         elif candidate_premature_layers is not None:
             early_exit_layers = candidate_premature_layers + [mature_layer]
             num_base_layers = len(candidate_premature_layers)
             premature_layer_dist = {l:0 for l in candidate_premature_layers}
+            if dola_avg is None:
+                dola_avg = False
         else:
             raise ValueError("You must specify either `base_layer` or `candidate_premature_layers`")
         
@@ -2668,6 +2675,26 @@ class GenerationMixin:
                     mask = final_logits[0] < -1e3
                     base_logits[0][mask] = -1e3
 
+                logits = final_logits - base_logits
+                next_token_logits = logits
+            elif dola_avg:
+                # Average distribution over candidate premature layers
+                stacked_premature_layers = torch.stack([dict_outputs[i][:, -1, :] for i in candidate_premature_layers], dim=0)  # (num_layers, batch_size, vocab)
+                
+                # Convert to softmax distributions and average
+                softmax_premature_layers = F.softmax(stacked_premature_layers, dim=-1)  # (num_layers, batch_size, vocab)
+                avg_softmax_premature = softmax_premature_layers.mean(dim=0)  # (batch_size, vocab)
+                
+                # Convert average distribution back to log-space
+                base_logits = torch.log(avg_softmax_premature + 1e-10)  # (batch_size, vocab)
+                
+                final_logits = dict_outputs[mature_layer][:, -1, :]
+                if relative_top > 0.0:
+                    final_logits = self.relative_top_filter(final_logits, relative_top)
+                    base_logits = base_logits.log_softmax(dim=-1)
+                    mask = final_logits[0] < -1e3
+                    base_logits[0][mask] = -1e3
+                
                 logits = final_logits - base_logits
                 next_token_logits = logits
             else:
@@ -3346,6 +3373,7 @@ class GenerationMixin:
         base_layer: Optional[int] = None,
         candidate_premature_layers: Optional[List[int]] = None,
         relative_top: float = 0.1,
+        dola_avg: Optional[bool] = None,
         logits_processor: Optional[LogitsProcessorList] = None,
         stopping_criteria: Optional[StoppingCriteriaList] = None,
         logits_warper: Optional[LogitsProcessorList] = None,
@@ -3535,10 +3563,13 @@ class GenerationMixin:
                 early_exit_layers = [base_layer, mature_layer]
                 num_base_layers = 1
                 premature_layer_dist = {}
+                dola_avg = False
             elif candidate_premature_layers is not None:
                 early_exit_layers = candidate_premature_layers + [mature_layer]
                 num_base_layers = len(candidate_premature_layers)
                 premature_layer_dist = {l:0 for l in candidate_premature_layers}
+                if dola_avg is None:
+                    dola_avg = False
             else:
                 raise ValueError("You must specify either `base_layer` or `candidate_premature_layers`")
             
@@ -3563,6 +3594,26 @@ class GenerationMixin:
                     base_logits[0][mask] = -1e3
                 logits = final_logits - base_logits
                 next_token_logits = logits[:, -1, :]
+            elif dola_avg:
+                # Average distribution over candidate premature layers
+                stacked_premature_layers = torch.stack([dict_outputs[i][:, -1, :] for i in candidate_premature_layers], dim=0)  # (num_layers, batch_size, vocab)
+                
+                # Convert to softmax distributions and average
+                softmax_premature_layers = F.softmax(stacked_premature_layers, dim=-1)  # (num_layers, batch_size, vocab)
+                avg_softmax_premature = softmax_premature_layers.mean(dim=0)  # (batch_size, vocab)
+                
+                # Convert average distribution back to log-space
+                base_logits = torch.log(avg_softmax_premature + 1e-10)  # (batch_size, vocab)
+                
+                final_logits = dict_outputs[mature_layer][:, -1, :]
+                if relative_top > 0.0:
+                    final_logits = self.relative_top_filter(final_logits, relative_top)
+                    base_logits = base_logits.log_softmax(dim=-1)
+                    mask = final_logits[0] < -1e3
+                    base_logits[0][mask] = -1e3
+                
+                logits = final_logits - base_logits
+                next_token_logits = logits
             else:
                 # 1. Stacking all premature_layers into a new dimension
                 stacked_premature_layers = torch.stack([dict_outputs[i][:, -1, :] for i in candidate_premature_layers], dim=0)

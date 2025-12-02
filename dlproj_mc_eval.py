@@ -89,6 +89,7 @@ if __name__ == "__main__":
     parser.add_argument("--repetition_penalty", type=float, default=1.0)
     parser.add_argument("--relative_top", type=float, default=0.0)
     parser.add_argument("--relative_top_value", type=float, default=-1000.0)
+    parser.add_argument("--dola-avg", action="store_true", help="Use DoLa-avg mode (average over candidate premature layers)")
     args = parser.parse_args()
     model_name = args.model_name
     num_gpus = args.num_gpus
@@ -112,6 +113,12 @@ if __name__ == "__main__":
         mature_layer = early_exit_layers[1]
         premature_layer = early_exit_layers[0]
         candidate_premature_layers = None
+    elif args.dola_avg:
+        print(f"MODE: DoLa-avg decoding with mature layer: {early_exit_layers[-1]} and premature layers: {early_exit_layers[:-1]}")
+        mode = "dola-avg"
+        mature_layer = early_exit_layers[-1]
+        premature_layer = None
+        candidate_premature_layers = early_exit_layers[:-1]
     else:
         print(f"MODE: DoLa decoding with mature layer: {early_exit_layers[-1]} and premature layers: {early_exit_layers[:-1]}")
         mode = "dola"

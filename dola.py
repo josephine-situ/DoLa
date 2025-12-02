@@ -137,18 +137,6 @@ class DoLa:
                 end   = T_total - 1
                 answer_logprobs_slice = outputs[start:end, :]   # shape: (T_answer, vocab)   
 
-                # print("Question: ", input_text1)
-                # print("Answer: ", input_text2)
-                # print("Full Input: ", input_text)
-                # print("Input IDs: ", input_ids)
-                # print("prefix_ids: ", prefix_ids)
-                # print("continue_ids: ", continue_ids)
-                # print("T_total: ", T_total)
-                # print("T_prompt: ", T_prompt)
-                # print("T_answer: ", T_answer)
-                # print("answer_logprobs_slice.shape: ", answer_logprobs_slice.shape)
-
-                # get logprobs for each token in the answer
                 log_probs = answer_logprobs_slice[torch.arange(answer_logprobs_slice.shape[0]), continue_ids].sum().item()
                 
             elif mode == 'dola-static':
@@ -161,23 +149,19 @@ class DoLa:
                 )
 
                 assert premature_layer is not None
-                base_logits = dict_outputs[premature_layer][0, prefix_ids.shape[-1] - 1: -1, :]
-                final_logits = dict_outputs[mature_layer][0, prefix_ids.shape[-1] - 1: -1, :]
-                final_logits = final_logits.log_softmax(dim=-1)
-                base_logits = base_logits.log_softmax(dim=-1)
+                base_logits  = dict_outputs[premature_layer][0, T_prompt - 1 : T_total - 1, :]
+                final_logits = dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :]
                 diff_logits = final_logits - base_logits
                 if post_softmax:
                     diff_logits = diff_logits.log_softmax(dim=-1)
                 if relative_top > 0.0:
                     relative_top_mask = self.get_relative_top_filter(final_logits, relative_top)
                     diff_logits = torch.where(relative_top_mask, relative_top_value, diff_logits)
-                    
-                log_probs = diff_logits[range(diff_logits.shape[0]), continue_ids].sum().item()
+                     # Extract logprob of each continuation token
+                log_probs = diff_logits[torch.arange(diff_logits.shape[0]), continue_ids].sum().item()
 
             elif mode == 'dola':
-                premature_layer_dist = {l:0 for l in candidate_premature_layers}
-                picked_logits = []
-                result_dict = {}
+                premature_layer_dist = {l: 0 for l in candidate_premature_layers}
                 premature_layers = []
 
                 dict_outputs, outputs = self.model(
@@ -188,48 +172,54 @@ class DoLa:
                     early_exit_layers=candidate_premature_layers + [mature_layer],
                 )
 
-                for seq_i in range(prefix_ids.shape[-1] - 1, input_ids.shape[-1] - 1):
-                    # Pick the less like layer to contrast with
-                    # 1. Stacking all premature_layers into a new dimension
+                for seq_i in range(T_prompt - 1, T_total - 1):
+
+                    # 1. Collect logits from all premature layers at time seq_i
                     stacked_premature_layers = torch.stack([dict_outputs[i][:, seq_i, :] for i in candidate_premature_layers], dim=0)
 
-                    # 2. Calculate the softmax values for mature_layer and all premature_layers
-                    softmax_mature_layer = F.softmax(dict_outputs[mature_layer][:, seq_i, :], dim=-1)  # shape: (batch_size, num_features)
-                    softmax_premature_layers = F.softmax(stacked_premature_layers, dim=-1)  # shape: (num_premature_layers, batch_size, num_features)
+                    mature_logits = dict_outputs[mature_layer][:, seq_i, :]
 
-                    # 3. Calculate M, the average distribution
-                    M = 0.5 * (softmax_mature_layer[None, :, :] + softmax_premature_layers)  # shape: (num_premature_layers, batch_size, num_features)
+                    # 2. Convert both premature and mature to softmax distributions
+                    soft_mature = F.softmax(mature_logits, dim=-1)  # (1, vocab)
+                    soft_prem   = F.softmax(stacked_premature_layers, dim=-1)  # (num_layers, 1, vocab)
 
-                    # 4. Calculate log-softmax for the KL divergence
-                    log_softmax_mature_layer = F.log_softmax(dict_outputs[mature_layer][:, seq_i, :], dim=-1)  # shape: (batch_size, num_features)
-                    log_softmax_premature_layers = F.log_softmax(stacked_premature_layers, dim=-1)  # shape: (num_premature_layers, batch_size, num_features)
+                    # 3. Jensen-Shannon divergence to pick the premature layer
+                    M = 0.5 * (soft_mature[None, :, :] + soft_prem)
 
-                    # 5. Calculate the KL divergences and then the JS divergences
-                    kl1 = F.kl_div(log_softmax_mature_layer[None, :, :], M, reduction='none').mean(-1)  # shape: (num_premature_layers, batch_size)
-                    kl2 = F.kl_div(log_softmax_premature_layers, M, reduction='none').mean(-1)  # shape: (num_premature_layers, batch_size)
-                    js_divs = 0.5 * (kl1 + kl2)  # shape: (num_premature_layers, batch_size)
+                    log_soft_mature = F.log_softmax(mature_logits, dim=-1)     # (1, vocab)
+                    log_soft_prem   = F.log_softmax(stacked_premature_layers, dim=-1)
 
-                    # 6. Reduce the batchmean
-                    js_divs = js_divs.mean(-1)  # shape: (num_premature_layers,)
-                    premature_layer = candidate_premature_layers[int(js_divs.argmax().cpu().item())]
+                    kl1 = F.kl_div(log_soft_mature[None, :, :], M, reduction='none').mean(-1)
+                    kl2 = F.kl_div(log_soft_prem,           M, reduction='none').mean(-1)
+
+                    js_divs = 0.5 * (kl1 + kl2)  # (num_layers, 1)
+                    js_divs = js_divs.mean(-1)   # (num_layers,)
+
+                    # Pick premature layer with *maximum* JS divergence
+                    premature_layer = candidate_premature_layers[js_divs.argmax().item()]
+                    premature_layers.append(premature_layer)
                     premature_layer_dist[premature_layer] += 1
 
-                    premature_layers.append(premature_layer)
+                # Build base_logits sequence from selected premature layers
+                base_logits = torch.zeros((T_answer, dict_outputs[mature_layer].shape[-1]), device=input_ids.device
+)
+                for i, layer in enumerate(premature_layers):
+                    base_logits[i] = dict_outputs[layer][0, T_prompt - 1 + i, :]
 
-                base_logits = torch.zeros_like(dict_outputs[mature_layer][0, prefix_ids.shape[-1] - 1:-1])
-                for i, l in enumerate(premature_layers):
-                   base_logits[i] = dict_outputs[l][0, prefix_ids.shape[-1] - 1 + i]
-                final_logits = dict_outputs[mature_layer][0, prefix_ids.shape[-1] - 1:-1]
-                final_logits = final_logits.log_softmax(dim=-1)
-                base_logits = base_logits.log_softmax(dim=-1)
-                diff_logits = final_logits - base_logits
-                if post_softmax:
-                    diff_logits = diff_logits.log_softmax(dim=-1)
+                # Mature logits over answer region
+                final_logits = dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :]
+                mixed_logits = final_logits - base_logits
 
+                # Convert to proper log-softmax distribution
+                mixed_logprobs = mixed_logits.log_softmax(dim=-1)
+
+                # Optional relative-top masking
                 if relative_top > 0.0:
-                    relative_top_mask = self.get_relative_top_filter(final_logits, relative_top)
-                    diff_logits = torch.where(relative_top_mask, relative_top_value, diff_logits)
-                
-                log_probs = diff_logits[range(diff_logits.shape[0]), continue_ids].sum().item()
+                    mask = self.get_relative_top_filter(mixed_logprobs, relative_top)
+                    mixed_logprobs = torch.where(mask, relative_top_value, mixed_logprobs)
+
+                # Score continuation tokens
+                log_probs = mixed_logprobs[torch.arange(mixed_logprobs.shape[0]), continue_ids].sum().item()
+
 
         return log_probs, (premature_layer_dist if mode == 'dola' else None)

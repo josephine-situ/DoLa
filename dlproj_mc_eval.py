@@ -188,6 +188,6 @@ if __name__ == "__main__":
 
 
     # save final logprob dictionary only
-    output_file = args.output_path + ".json"
+    output_file = args.output_path if ".json" in args.output_path else args.output_path + ".json"
     with open(output_file, "w+") as f:
         json.dump(logprob_dict, f, indent=2)

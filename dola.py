@@ -198,9 +198,9 @@ class DoLa:
                     premature_layer_dist[premature_layer] += 1
 
                 # Build base_logits sequence from selected premature layers
-                base_logits = torch.zeros((T_answer, dict_outputs[mature_layer].shape[-1]), device=input_ids.device).log_softmax(dim=-1)
+                base_logits = torch.zeros((T_answer, dict_outputs[mature_layer].shape[-1]), device=input_ids.device)
                 for i, layer in enumerate(premature_layers):
-                    base_logits[i] = dict_outputs[layer][0, T_prompt - 1 + i, :]
+                    base_logits[i] = dict_outputs[layer][0, T_prompt - 1 + i, :].log_softmax(dim=-1)
 
                 # Mature logits over answer region
                 final_logits = dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :].log_softmax(dim=-1)

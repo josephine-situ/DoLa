@@ -152,13 +152,12 @@ class DoLa:
                 base_logits  = dict_outputs[premature_layer][0, T_prompt - 1 : T_total - 1, :]
                 final_logits = dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :]
                 diff_logits = final_logits - base_logits
-                if post_softmax:
-                    diff_logits = diff_logits.log_softmax(dim=-1)
+                diff_logprobs = diff_logits.log_softmax(dim=-1)
                 if relative_top > 0.0:
                     relative_top_mask = self.get_relative_top_filter(final_logits, relative_top)
-                    diff_logits = torch.where(relative_top_mask, relative_top_value, diff_logits)
+                    diff_logprobs = torch.where(relative_top_mask, relative_top_value, diff_logprobs)
                      # Extract logprob of each continuation token
-                log_probs = diff_logits[torch.arange(diff_logits.shape[0]), continue_ids].sum().item()
+                log_probs = diff_logprobs[torch.arange(diff_logprobs.shape[0]), continue_ids].sum().item()
 
             elif mode == 'dola':
                 premature_layer_dist = {l: 0 for l in candidate_premature_layers}

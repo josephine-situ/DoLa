@@ -188,6 +188,7 @@ if __name__ == "__main__":
 
 
     # save final logprob dictionary only
-    output_file = args.output_path + ".json"
+    output_suffix = f"_temp{args.temperature}_topk{args.top_k}_topp{args.top_p}".replace(".", "_")
+    output_file = args.output_path + output_suffix + ".json"
     with open(output_file, "w+") as f:
         json.dump(logprob_dict, f, indent=2)

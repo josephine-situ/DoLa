@@ -51,8 +51,11 @@ def MCQ_scores(logprobs, correct_idx):
 
     # Softmax probability mass on correct answer
     probs = np.exp(logprobs)
-    probs = probs / probs.sum()
-    mc2 = probs[correct_idx]
+    probs_sum = probs.sum()
+    if probs_sum > 0:
+        mc2 = probs[correct_idx] / probs_sum
+    else:
+        mc2 = 0.0  # fallback if all still zero
 
     # Rank of correct answer (1 = best)
     sorted_indices = np.argsort(logprobs)[::-1]  # descending
@@ -144,7 +147,10 @@ if __name__ == "__main__":
                 candidate_premature_layers=candidate_premature_layers,
                 relative_top=args.relative_top,
                 relative_top_value=args.relative_top_value,
-                post_softmax=False
+                post_softmax=False,
+                temperature=args.temperature,
+                top_k=args.top_k,
+                top_p=args.top_p,
             )
 
             logprobs = []

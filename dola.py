@@ -131,13 +131,48 @@ class DoLa:
 
             if mode == 'baseline':
                 outputs = self.model(input_ids)[0].squeeze(0)
-                outputs = outputs.log_softmax(-1)  # logits to log probs
+                logits = outputs  # raw logits
 
                 start = T_prompt - 1
                 end   = T_total - 1
-                answer_logprobs_slice = outputs[start:end, :]   # shape: (T_answer, vocab)   
+                answer_logits_slice = logits[start:end, :]   # shape: (T_answer, vocab)   
 
-                log_probs = answer_logprobs_slice[torch.arange(answer_logprobs_slice.shape[0]), continue_ids].sum().item()
+                # Apply temperature scaling
+                if temperature != 1.0:
+                    answer_logits_slice = answer_logits_slice / temperature
+
+                # Apply top-k filtering
+                if top_k > 0:
+                    indices_to_remove = answer_logits_slice < torch.topk(answer_logits_slice, top_k, dim=-1)[0][..., -1, None]
+                    answer_logits_slice = answer_logits_slice.clone()
+                    answer_logits_slice[indices_to_remove] = float('-inf')
+
+                # Apply top-p (nucleus) filtering
+                if top_p < 1.0:
+                    sorted_logits, sorted_indices = torch.sort(answer_logits_slice, descending=True, dim=-1)
+                    cumsum_probs = torch.cumsum(F.softmax(sorted_logits, dim=-1), dim=-1)
+                    sorted_indices_to_remove = cumsum_probs > top_p
+                    sorted_indices_to_remove[..., 0] = False  # keep at least one token
+                    indices_to_remove = sorted_indices_to_remove.scatter(-1, sorted_indices, sorted_indices_to_remove)
+                    answer_logits_slice = answer_logits_slice.clone()
+                    answer_logits_slice[indices_to_remove] = float('-inf')
+
+                # Convert to log probabilities
+                outputs = F.log_softmax(answer_logits_slice, dim=-1)
+
+                # print("Question: ", input_text1)
+                # print("Answer: ", input_text2)
+                # print("Full Input: ", input_text)
+                # print("Input IDs: ", input_ids)
+                # print("prefix_ids: ", prefix_ids)
+                # print("continue_ids: ", continue_ids)
+                # print("T_total: ", T_total)
+                # print("T_prompt: ", T_prompt)
+                # print("T_answer: ", T_answer)
+                # print("answer_logprobs_slice.shape: ", answer_logprobs_slice.shape)
+
+                # get logprobs for each token in the answer
+                log_probs = outputs[torch.arange(outputs.shape[0]), continue_ids].sum().item()
                 
             elif mode == 'dola-static':
                 dict_outputs, outputs = self.model(

@@ -144,7 +144,10 @@ if __name__ == "__main__":
                 candidate_premature_layers=candidate_premature_layers,
                 relative_top=args.relative_top,
                 relative_top_value=args.relative_top_value,
-                post_softmax=False
+                post_softmax=False,
+                temperature=args.temperature,
+                top_k=args.top_k,
+                top_p=args.top_p,
             )
 
             logprobs = []

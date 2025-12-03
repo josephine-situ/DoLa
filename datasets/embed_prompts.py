@@ -9,7 +9,8 @@ import torch
 # ----------------------
 # CONFIG
 # ----------------------
-MODEL_NAME = "all-MiniLM-L6-v2"  # lightweight, fast, good quality
+# MODEL_NAME = "all-MiniLM-L6-v2"  # lightweight, fast, good quality
+MODEL_NAME = "intfloat/e5-small-v2" # larger, slower, better quality
 BATCH_SIZE = 32
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"  # auto GPU if available
 
@@ -43,5 +44,5 @@ for i in tqdm(range(0, len(questions), BATCH_SIZE), desc="Embedding prompts"):
 # SAVE EMBEDDINGS
 # ----------------------
 embeddings = np.array(embeddings, dtype=np.float32)
-np.save("question_embeddings.npy", embeddings)
+np.save("embed_e5-small-v2.npy", embeddings)
 

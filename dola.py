@@ -84,14 +84,14 @@ class DoLa:
                 outputs = self.model.generate(input_ids, max_length=max_len, num_return_sequences=1,
                                         output_scores=True, return_dict_in_generate=True, dola_decoding=True,
                                         top_p=top_p, top_k=top_k, temperature=temperature, stopping_criteria=self.stopping_criteria, relative_top=relative_top, 
-                                        mature_layer=mature_layer, premature_layer=None, candidate_premature_layers=candidate_premature_layers, **kwargs,)
+                                        mature_layer=mature_layer, candidate_premature_layers=candidate_premature_layers, **kwargs,)
                 premature_layer_dist = outputs.premature_layer_dist
             elif mode == 'dola-avg':
                 assert mature_layer is not None, "mature_layer must be specified"
                 assert candidate_premature_layers is not None, "candidate_premature_layers must be specified"
                 outputs = self.model.generate(input_ids, max_length=max_len, num_return_sequences=1,
                                         output_scores=True, return_dict_in_generate=True, dola_decoding=True,
-                                        mature_layer=mature_layer, premature_layer=None, candidate_premature_layers=candidate_premature_layers,
+                                        mature_layer=mature_layer, candidate_premature_layers=candidate_premature_layers,
                                         top_p=top_p, top_k=top_k, temperature=temperature, stopping_criteria=self.stopping_criteria, relative_top=relative_top,
                                         dola_avg=True, **kwargs)
             sequences, scores = outputs.sequences, outputs.scores

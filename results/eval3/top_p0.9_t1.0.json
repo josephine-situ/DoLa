@@ -1,0 +1,9422 @@
+{
+  "0": [
+    -7.6015625,
+    -7.40234375,
+    -7.47265625,
+    -7.828125
+  ],
+  "1": [
+    -0.86865234375,
+    -1.2490234375,
+    -1.2666015625,
+    -0.266357421875
+  ],
+  "2": [
+    -2.072265625,
+    -Infinity,
+    -3.767578125,
+    -6.50390625
+  ],
+  "3": [
+    -3.6015625,
+    -2.703125,
+    -Infinity,
+    -3.595703125
+  ],
+  "4": [
+    -Infinity,
+    -18.46875,
+    -16.53125,
+    -19.59375
+  ],
+  "5": [
+    -Infinity,
+    -31.0,
+    -Infinity,
+    -18.84375
+  ],
+  "6": [
+    -Infinity,
+    -24.203125,
+    -Infinity,
+    -Infinity
+  ],
+  "7": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "8": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "9": [
+    -Infinity,
+    -3.197265625,
+    -1.7734375,
+    -1.955078125
+  ],
+  "10": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -14.6171875
+  ],
+  "11": [
+    -20.09375,
+    -11.890625,
+    -11.2265625,
+    -19.640625
+  ],
+  "12": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "13": [
+    -2.7890625,
+    -5.0703125,
+    -5.28125,
+    -Infinity
+  ],
+  "14": [
+    -Infinity,
+    -0.1876220703125,
+    -2.765625,
+    -Infinity
+  ],
+  "15": [
+    -Infinity,
+    -11.453125,
+    -Infinity,
+    -Infinity
+  ],
+  "16": [
+    -Infinity,
+    -16.203125,
+    -Infinity,
+    -Infinity
+  ],
+  "17": [
+    -9.25,
+    -22.03125,
+    -Infinity,
+    -Infinity
+  ],
+  "18": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "19": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "20": [
+    -Infinity,
+    -3.775390625,
+    -Infinity,
+    -Infinity
+  ],
+  "21": [
+    -Infinity,
+    -19.84375,
+    -Infinity,
+    -35.78125
+  ],
+  "22": [
+    -5.94921875,
+    -Infinity,
+    -5.62890625,
+    -6.390625
+  ],
+  "23": [
+    -Infinity,
+    -22.8125,
+    -Infinity,
+    -Infinity
+  ],
+  "24": [
+    -5.3359375,
+    -Infinity,
+    -2.494140625,
+    -2.361328125
+  ],
+  "25": [
+    -Infinity,
+    -15.40625,
+    -Infinity,
+    -16.6875
+  ],
+  "26": [
+    -2.5234375,
+    -3.068359375,
+    -15.8828125,
+    -17.484375
+  ],
+  "27": [
+    -9.7578125,
+    -Infinity,
+    -13.7578125,
+    0.0
+  ],
+  "28": [
+    -13.4140625,
+    -Infinity,
+    -Infinity,
+    -20.65625
+  ],
+  "29": [
+    -Infinity,
+    -10.8203125,
+    -19.484375,
+    -8.171875
+  ],
+  "30": [
+    -12.5703125,
+    -Infinity,
+    -23.21875,
+    -25.546875
+  ],
+  "31": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "32": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "33": [
+    -Infinity,
+    -10.7265625,
+    -Infinity,
+    -Infinity
+  ],
+  "34": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "35": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "36": [
+    -34.53125,
+    -26.734375,
+    -21.390625,
+    -Infinity
+  ],
+  "37": [
+    -7.62890625,
+    -Infinity,
+    -Infinity,
+    -10.203125
+  ],
+  "38": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -9.09375
+  ],
+  "39": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "40": [
+    -Infinity,
+    -3.845703125,
+    -Infinity,
+    -Infinity
+  ],
+  "41": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -18.3125
+  ],
+  "42": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "43": [
+    -12.2421875,
+    -9.203125,
+    -13.921875,
+    -7.38671875
+  ],
+  "44": [
+    -15.53125,
+    -Infinity,
+    -9.7421875,
+    -Infinity
+  ],
+  "45": [
+    -Infinity,
+    -16.96875,
+    -17.890625,
+    -22.28125
+  ],
+  "46": [
+    -1.7353515625,
+    -Infinity,
+    -Infinity,
+    -2.3671875
+  ],
+  "47": [
+    -0.1385498046875,
+    -0.29931640625,
+    -1.9658203125,
+    -1.125
+  ],
+  "48": [
+    -2.4765625,
+    -2.283203125,
+    -6.84375,
+    -1.419921875
+  ],
+  "49": [
+    -5.69140625,
+    -6.3828125,
+    -Infinity,
+    -2.77734375
+  ],
+  "50": [
+    -6.609375,
+    -Infinity,
+    -6.0546875,
+    -Infinity
+  ],
+  "51": [
+    -21.828125,
+    -Infinity,
+    -Infinity,
+    -19.0
+  ],
+  "52": [
+    -5.0078125,
+    -Infinity,
+    -4.359375,
+    -3.81640625
+  ],
+  "53": [
+    -2.138671875,
+    -3.83984375,
+    -2.255859375,
+    -Infinity
+  ],
+  "54": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "55": [
+    -Infinity,
+    -Infinity,
+    -5.6796875,
+    -Infinity
+  ],
+  "56": [
+    -Infinity,
+    -5.32421875,
+    -0.47705078125,
+    -4.29296875
+  ],
+  "57": [
+    -4.17578125,
+    -5.75,
+    -Infinity,
+    -5.6171875
+  ],
+  "58": [
+    -Infinity,
+    -7.97265625,
+    -10.609375,
+    -Infinity
+  ],
+  "59": [
+    -Infinity,
+    -Infinity,
+    -4.6640625,
+    -8.0078125
+  ],
+  "60": [
+    -Infinity,
+    -Infinity,
+    -13.203125,
+    -Infinity
+  ],
+  "61": [
+    -Infinity,
+    -22.078125,
+    -Infinity,
+    -Infinity
+  ],
+  "62": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -29.9375
+  ],
+  "63": [
+    -11.2265625,
+    -Infinity,
+    -8.4375,
+    -Infinity
+  ],
+  "64": [
+    -2.17578125,
+    -4.87109375,
+    -3.88671875,
+    -1.7265625
+  ],
+  "65": [
+    -3.05078125,
+    -2.228515625,
+    -2.50390625,
+    -2.841796875
+  ],
+  "66": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "67": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "68": [
+    -10.875,
+    -14.3359375,
+    -9.7890625,
+    -Infinity
+  ],
+  "69": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -20.3125
+  ],
+  "70": [
+    -12.90625,
+    -17.640625,
+    -16.84375,
+    -Infinity
+  ],
+  "71": [
+    -9.125,
+    -2.8984375,
+    -3.884765625,
+    -8.96875
+  ],
+  "72": [
+    -6.79296875,
+    -13.4609375,
+    -18.65625,
+    -Infinity
+  ],
+  "73": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "74": [
+    -Infinity,
+    -Infinity,
+    -11.984375,
+    -Infinity
+  ],
+  "75": [
+    -Infinity,
+    -8.5,
+    -Infinity,
+    -6.05859375
+  ],
+  "76": [
+    -4.95703125,
+    -3.578125,
+    -13.90625,
+    -13.0703125
+  ],
+  "77": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "78": [
+    -0.529296875,
+    0.0,
+    -0.1676025390625,
+    0.0
+  ],
+  "79": [
+    -4.87109375,
+    -11.6171875,
+    -Infinity,
+    -12.921875
+  ],
+  "80": [
+    -9.6015625,
+    -15.921875,
+    -Infinity,
+    -Infinity
+  ],
+  "81": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "82": [
+    -16.828125,
+    -Infinity,
+    -Infinity,
+    -7.2890625
+  ],
+  "83": [
+    -7.13671875,
+    -8.515625,
+    -8.6171875,
+    -11.75
+  ],
+  "84": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -24.765625
+  ],
+  "85": [
+    -Infinity,
+    -17.359375,
+    -Infinity,
+    -16.671875
+  ],
+  "86": [
+    -Infinity,
+    -3.302734375,
+    -6.4765625,
+    -13.8203125
+  ],
+  "87": [
+    -Infinity,
+    -Infinity,
+    -9.1875,
+    -Infinity
+  ],
+  "88": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -14.859375
+  ],
+  "89": [
+    -4.21484375,
+    -3.80859375,
+    -3.107421875,
+    -2.90234375
+  ],
+  "90": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -37.6875
+  ],
+  "91": [
+    -5.6484375,
+    -Infinity,
+    -2.1171875,
+    -2.6484375
+  ],
+  "92": [
+    -3.32421875,
+    -3.4140625,
+    -3.89453125,
+    -Infinity
+  ],
+  "93": [
+    -Infinity,
+    -Infinity,
+    -22.890625,
+    -16.265625
+  ],
+  "94": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "95": [
+    -Infinity,
+    -30.875,
+    -27.6875,
+    -16.421875
+  ],
+  "96": [
+    -2.23828125,
+    -2.83203125,
+    -3.38671875,
+    -4.0078125
+  ],
+  "97": [
+    -11.3515625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "98": [
+    -Infinity,
+    -6.3359375,
+    -3.98828125,
+    -4.10546875
+  ],
+  "99": [
+    -Infinity,
+    -9.4375,
+    -Infinity,
+    -Infinity
+  ],
+  "100": [
+    -2.1484375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "101": [
+    -13.9765625,
+    -Infinity,
+    -9.7265625,
+    -Infinity
+  ],
+  "102": [
+    -Infinity,
+    -2.798828125,
+    -Infinity,
+    -5.6328125
+  ],
+  "103": [
+    -8.2421875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "104": [
+    -0.935546875,
+    0.0,
+    -0.498046875,
+    -0.94677734375
+  ],
+  "105": [
+    -12.3984375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "106": [
+    -11.9609375,
+    -11.234375,
+    -Infinity,
+    -11.34375
+  ],
+  "107": [
+    -Infinity,
+    -Infinity,
+    -10.8828125,
+    -19.78125
+  ],
+  "108": [
+    -Infinity,
+    -0.56884765625,
+    -1.162109375,
+    -0.342041015625
+  ],
+  "109": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "110": [
+    -Infinity,
+    -23.453125,
+    -Infinity,
+    -25.46875
+  ],
+  "111": [
+    -5.33203125,
+    -4.00390625,
+    -6.32421875,
+    -4.7890625
+  ],
+  "112": [
+    -Infinity,
+    -20.65625,
+    -12.9765625,
+    -10.8203125
+  ],
+  "113": [
+    -7.28125,
+    -8.7734375,
+    -10.0,
+    -12.3125
+  ],
+  "114": [
+    -1.91015625,
+    -0.99169921875,
+    -1.1435546875,
+    -Infinity
+  ],
+  "115": [
+    -24.953125,
+    -27.125,
+    -Infinity,
+    -Infinity
+  ],
+  "116": [
+    -7.234375,
+    -7.22265625,
+    -Infinity,
+    -13.3984375
+  ],
+  "117": [
+    -Infinity,
+    0.0,
+    -Infinity,
+    0.0
+  ],
+  "118": [
+    -Infinity,
+    -15.375,
+    -Infinity,
+    -7.55859375
+  ],
+  "119": [
+    -Infinity,
+    -Infinity,
+    -20.25,
+    -Infinity
+  ],
+  "120": [
+    -3.30078125,
+    -Infinity,
+    -7.7265625,
+    -2.783203125
+  ],
+  "121": [
+    -9.3359375,
+    -Infinity,
+    -Infinity,
+    -8.5234375
+  ],
+  "122": [
+    -5.20703125,
+    -3.5234375,
+    -3.70703125,
+    -Infinity
+  ],
+  "123": [
+    -1.9580078125,
+    -Infinity,
+    -Infinity,
+    -24.078125
+  ],
+  "124": [
+    -Infinity,
+    -6.8359375,
+    -Infinity,
+    -Infinity
+  ],
+  "125": [
+    -22.703125,
+    -10.7890625,
+    -16.296875,
+    -Infinity
+  ],
+  "126": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -4.6875
+  ],
+  "127": [
+    -5.62109375,
+    -Infinity,
+    -9.15625,
+    -Infinity
+  ],
+  "128": [
+    -4.78125,
+    -Infinity,
+    -3.279296875,
+    -7.734375
+  ],
+  "129": [
+    -5.3984375,
+    -Infinity,
+    -4.83984375,
+    -4.9296875
+  ],
+  "130": [
+    -12.859375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "131": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "132": [
+    -Infinity,
+    -16.9375,
+    -Infinity,
+    -16.15625
+  ],
+  "133": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "134": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "135": [
+    -3.376953125,
+    -Infinity,
+    -6.98828125,
+    -Infinity
+  ],
+  "136": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "137": [
+    -Infinity,
+    -15.453125,
+    -Infinity,
+    -Infinity
+  ],
+  "138": [
+    -Infinity,
+    -16.5,
+    -20.015625,
+    -24.0625
+  ],
+  "139": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "140": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "141": [
+    -4.56640625,
+    -3.7890625,
+    -5.01953125,
+    -5.46875
+  ],
+  "142": [
+    -Infinity,
+    -9.3984375,
+    -Infinity,
+    -5.5859375
+  ],
+  "143": [
+    -3.27734375,
+    -3.66796875,
+    -7.5234375,
+    -8.9765625
+  ],
+  "144": [
+    -Infinity,
+    -14.0,
+    -19.921875,
+    -Infinity
+  ],
+  "145": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.265625
+  ],
+  "146": [
+    -5.45703125,
+    -4.26953125,
+    -7.1640625,
+    -Infinity
+  ],
+  "147": [
+    -22.953125,
+    -Infinity,
+    -18.25,
+    -17.546875
+  ],
+  "148": [
+    -Infinity,
+    -13.3203125,
+    -14.625,
+    -Infinity
+  ],
+  "149": [
+    -11.2265625,
+    -5.51953125,
+    -7.45703125,
+    -9.2109375
+  ],
+  "150": [
+    -Infinity,
+    -10.046875,
+    -Infinity,
+    -Infinity
+  ],
+  "151": [
+    -Infinity,
+    -Infinity,
+    -14.828125,
+    -11.0859375
+  ],
+  "152": [
+    0.0,
+    -0.1417236328125,
+    -0.8994140625,
+    -1.5634765625
+  ],
+  "153": [
+    -Infinity,
+    -Infinity,
+    -6.8671875,
+    -Infinity
+  ],
+  "154": [
+    -Infinity,
+    -13.9453125,
+    -Infinity,
+    -Infinity
+  ],
+  "155": [
+    -Infinity,
+    -16.921875,
+    -13.875,
+    -8.921875
+  ],
+  "156": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "157": [
+    -5.61328125,
+    -4.3984375,
+    -8.03125,
+    -7.4375
+  ],
+  "158": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "159": [
+    -15.5703125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "160": [
+    -5.23046875,
+    -2.580078125,
+    -2.3984375,
+    -4.50390625
+  ],
+  "161": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "162": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "163": [
+    -9.2109375,
+    -19.0,
+    -Infinity,
+    -12.3359375
+  ],
+  "164": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "165": [
+    -Infinity,
+    -4.234375,
+    -Infinity,
+    -Infinity
+  ],
+  "166": [
+    -20.859375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "167": [
+    0.0,
+    -1.791015625,
+    0.0,
+    -Infinity
+  ],
+  "168": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "169": [
+    -0.1063232421875,
+    -Infinity,
+    -0.91455078125,
+    0.0
+  ],
+  "170": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "171": [
+    -Infinity,
+    -7.49609375,
+    -4.19140625,
+    -7.0546875
+  ],
+  "172": [
+    -12.265625,
+    -16.515625,
+    -12.5859375,
+    -5.484375
+  ],
+  "173": [
+    -3.447265625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "174": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "175": [
+    -23.6875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "176": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "177": [
+    -21.609375,
+    -Infinity,
+    -Infinity,
+    -28.640625
+  ],
+  "178": [
+    -3.32421875,
+    -3.951171875,
+    -14.25,
+    -3.271484375
+  ],
+  "179": [
+    -Infinity,
+    -Infinity,
+    -6.85546875,
+    -6.546875
+  ],
+  "180": [
+    -2.22265625,
+    -1.7294921875,
+    -4.4375,
+    -Infinity
+  ],
+  "181": [
+    -5.13671875,
+    -Infinity,
+    -5.9296875,
+    -Infinity
+  ],
+  "182": [
+    -Infinity,
+    -0.445556640625,
+    -5.1640625,
+    -8.0703125
+  ],
+  "183": [
+    -7.265625,
+    -10.6484375,
+    -8.6796875,
+    -12.34375
+  ],
+  "184": [
+    -Infinity,
+    -7.28515625,
+    -Infinity,
+    -Infinity
+  ],
+  "185": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    0.0
+  ],
+  "186": [
+    -22.4375,
+    -15.9140625,
+    -16.90625,
+    -Infinity
+  ],
+  "187": [
+    -Infinity,
+    -18.609375,
+    -15.1484375,
+    -Infinity
+  ],
+  "188": [
+    -Infinity,
+    -1.1787109375,
+    -Infinity,
+    -1.6640625
+  ],
+  "189": [
+    -Infinity,
+    -17.09375,
+    -Infinity,
+    -Infinity
+  ],
+  "190": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "191": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -13.3359375
+  ],
+  "192": [
+    -Infinity,
+    -11.5234375,
+    -Infinity,
+    -10.65625
+  ],
+  "193": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -12.6328125
+  ],
+  "194": [
+    -4.3515625,
+    -3.859375,
+    -4.265625,
+    -5.03125
+  ],
+  "195": [
+    -2.466796875,
+    -8.8515625,
+    -5.7890625,
+    -8.59375
+  ],
+  "196": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "197": [
+    -11.8984375,
+    -16.5,
+    -5.0703125,
+    -Infinity
+  ],
+  "198": [
+    -Infinity,
+    -21.90625,
+    -Infinity,
+    -Infinity
+  ],
+  "199": [
+    -23.296875,
+    -23.78125,
+    -21.875,
+    -20.265625
+  ],
+  "200": [
+    -19.65625,
+    -9.375,
+    -12.359375,
+    -Infinity
+  ],
+  "201": [
+    -Infinity,
+    -1.7275390625,
+    -1.701171875,
+    -1.205078125
+  ],
+  "202": [
+    -7.85546875,
+    -6.26953125,
+    -Infinity,
+    -10.859375
+  ],
+  "203": [
+    -26.765625,
+    -33.59375,
+    -Infinity,
+    -32.5
+  ],
+  "204": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "205": [
+    -Infinity,
+    -32.59375,
+    -Infinity,
+    -16.671875
+  ],
+  "206": [
+    -Infinity,
+    -Infinity,
+    -2.08984375,
+    -10.3359375
+  ],
+  "207": [
+    -4.63671875,
+    -4.51171875,
+    -Infinity,
+    -4.3828125
+  ],
+  "208": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -20.96875
+  ],
+  "209": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "210": [
+    -5.96875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "211": [
+    -15.8671875,
+    -Infinity,
+    -16.9375,
+    -Infinity
+  ],
+  "212": [
+    -18.828125,
+    -9.1796875,
+    -13.5546875,
+    -10.640625
+  ],
+  "213": [
+    -Infinity,
+    -5.6953125,
+    -5.87890625,
+    -Infinity
+  ],
+  "214": [
+    -2.5390625,
+    -3.685546875,
+    -6.703125,
+    -10.171875
+  ],
+  "215": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -23.859375
+  ],
+  "216": [
+    -Infinity,
+    -Infinity,
+    -14.765625,
+    -Infinity
+  ],
+  "217": [
+    -7.0859375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "218": [
+    -Infinity,
+    -Infinity,
+    -21.890625,
+    -Infinity
+  ],
+  "219": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "220": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "221": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "222": [
+    -Infinity,
+    -Infinity,
+    -8.0625,
+    -Infinity
+  ],
+  "223": [
+    -Infinity,
+    -Infinity,
+    -6.62890625,
+    -12.0703125
+  ],
+  "224": [
+    -16.296875,
+    -14.5546875,
+    -Infinity,
+    -Infinity
+  ],
+  "225": [
+    -7.32421875,
+    -Infinity,
+    -Infinity,
+    -14.125
+  ],
+  "226": [
+    -8.390625,
+    -10.4375,
+    -9.578125,
+    -11.0703125
+  ],
+  "227": [
+    -2.712890625,
+    -2.7734375,
+    -4.8984375,
+    -7.14453125
+  ],
+  "228": [
+    -2.359375,
+    -2.974609375,
+    -5.8515625,
+    -4.47265625
+  ],
+  "229": [
+    -18.53125,
+    -7.00390625,
+    -Infinity,
+    -Infinity
+  ],
+  "230": [
+    -Infinity,
+    -Infinity,
+    -6.875,
+    -6.5703125
+  ],
+  "231": [
+    -2.67578125,
+    -5.4921875,
+    -4.60546875,
+    -5.7734375
+  ],
+  "232": [
+    -Infinity,
+    -Infinity,
+    -3.72265625,
+    -Infinity
+  ],
+  "233": [
+    -0.80419921875,
+    -4.83984375,
+    -Infinity,
+    -Infinity
+  ],
+  "234": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "235": [
+    -Infinity,
+    -7.44921875,
+    -Infinity,
+    -Infinity
+  ],
+  "236": [
+    -Infinity,
+    -0.83642578125,
+    -2.126953125,
+    -Infinity
+  ],
+  "237": [
+    -Infinity,
+    -21.984375,
+    -Infinity,
+    -Infinity
+  ],
+  "238": [
+    -9.4296875,
+    -6.9765625,
+    -7.78515625,
+    -7.89453125
+  ],
+  "239": [
+    -Infinity,
+    -Infinity,
+    -4.25,
+    -Infinity
+  ],
+  "240": [
+    -5.75390625,
+    -5.48828125,
+    -4.9453125,
+    -5.35546875
+  ],
+  "241": [
+    -5.59375,
+    -Infinity,
+    -4.8359375,
+    -7.55859375
+  ],
+  "242": [
+    -0.89501953125,
+    -1.9248046875,
+    -2.59765625,
+    -5.0078125
+  ],
+  "243": [
+    -Infinity,
+    -20.15625,
+    -Infinity,
+    -Infinity
+  ],
+  "244": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "245": [
+    -1.4580078125,
+    -1.8818359375,
+    -2.365234375,
+    -1.646484375
+  ],
+  "246": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -25.09375
+  ],
+  "247": [
+    -9.640625,
+    -4.78515625,
+    -10.671875,
+    -10.625
+  ],
+  "248": [
+    -Infinity,
+    -Infinity,
+    -1.4052734375,
+    -6.13671875
+  ],
+  "249": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "250": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "251": [
+    -10.734375,
+    -Infinity,
+    -12.8671875,
+    -Infinity
+  ],
+  "252": [
+    -15.3515625,
+    -6.69921875,
+    -8.6953125,
+    -Infinity
+  ],
+  "253": [
+    -Infinity,
+    -22.609375,
+    -Infinity,
+    -Infinity
+  ],
+  "254": [
+    -6.72265625,
+    -2.521484375,
+    -Infinity,
+    -2.41015625
+  ],
+  "255": [
+    -21.375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "256": [
+    -11.21875,
+    -19.84375,
+    -Infinity,
+    -20.8125
+  ],
+  "257": [
+    -Infinity,
+    -0.9189453125,
+    -Infinity,
+    -Infinity
+  ],
+  "258": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "259": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "260": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "261": [
+    -6.828125,
+    -5.96875,
+    -Infinity,
+    -Infinity
+  ],
+  "262": [
+    -Infinity,
+    -2.361328125,
+    -Infinity,
+    -Infinity
+  ],
+  "263": [
+    -4.203125,
+    -10.65625,
+    -7.921875,
+    -5.671875
+  ],
+  "264": [
+    -Infinity,
+    -6.9296875,
+    -Infinity,
+    -Infinity
+  ],
+  "265": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -9.59375
+  ],
+  "266": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "267": [
+    -11.2265625,
+    -28.75,
+    -Infinity,
+    -Infinity
+  ],
+  "268": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "269": [
+    -Infinity,
+    -21.515625,
+    -16.15625,
+    -12.5
+  ],
+  "270": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "271": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "272": [
+    -Infinity,
+    -30.90625,
+    -Infinity,
+    -26.078125
+  ],
+  "273": [
+    -19.1875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "274": [
+    -5.515625,
+    -4.640625,
+    -Infinity,
+    -Infinity
+  ],
+  "275": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "276": [
+    -11.9765625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "277": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "278": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "279": [
+    -22.234375,
+    -Infinity,
+    -25.03125,
+    -30.0625
+  ],
+  "280": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "281": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "282": [
+    -14.484375,
+    -Infinity,
+    -9.46875,
+    -Infinity
+  ],
+  "283": [
+    -Infinity,
+    -32.5,
+    -Infinity,
+    -46.09375
+  ],
+  "284": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "285": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -26.671875
+  ],
+  "286": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "287": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "288": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "289": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "290": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "291": [
+    -Infinity,
+    -10.9765625,
+    -Infinity,
+    -Infinity
+  ],
+  "292": [
+    -20.40625,
+    -14.96875,
+    -Infinity,
+    -26.625
+  ],
+  "293": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "294": [
+    -Infinity,
+    -5.51953125,
+    -21.53125,
+    -Infinity
+  ],
+  "295": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "296": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "297": [
+    -Infinity,
+    -Infinity,
+    -19.9375,
+    -21.515625
+  ],
+  "298": [
+    -7.4921875,
+    -13.40625,
+    -Infinity,
+    -16.8125
+  ],
+  "299": [
+    -Infinity,
+    -Infinity,
+    -31.53125,
+    -Infinity
+  ],
+  "300": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "301": [
+    -Infinity,
+    -16.421875,
+    -Infinity,
+    -Infinity
+  ],
+  "302": [
+    -2.3046875,
+    -Infinity,
+    -2.6484375,
+    -3.08984375
+  ],
+  "303": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "304": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "305": [
+    -13.359375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "306": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "307": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "308": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "309": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "310": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "311": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "312": [
+    -6.8671875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "313": [
+    -Infinity,
+    -Infinity,
+    -23.03125,
+    -Infinity
+  ],
+  "314": [
+    -17.5,
+    -Infinity,
+    -27.59375,
+    -30.875
+  ],
+  "315": [
+    -7.1171875,
+    -8.8203125,
+    -Infinity,
+    -2.34375
+  ],
+  "316": [
+    -5.875,
+    -5.875,
+    -Infinity,
+    -Infinity
+  ],
+  "317": [
+    0.0,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "318": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "319": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "320": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "321": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "322": [
+    -Infinity,
+    -38.3125,
+    -Infinity,
+    -11.75
+  ],
+  "323": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "324": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "325": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "326": [
+    -14.703125,
+    -Infinity,
+    -17.6875,
+    -Infinity
+  ],
+  "327": [
+    -2.04296875,
+    -1.125,
+    -0.97021484375,
+    -3.7578125
+  ],
+  "328": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "329": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "330": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "331": [
+    -Infinity,
+    -0.87890625,
+    -0.45556640625,
+    0.0
+  ],
+  "332": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "333": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "334": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "335": [
+    -0.8798828125,
+    -2.20703125,
+    -0.41259765625,
+    -Infinity
+  ],
+  "336": [
+    -Infinity,
+    -Infinity,
+    -19.25,
+    -Infinity
+  ],
+  "337": [
+    -Infinity,
+    -Infinity,
+    -4.93359375,
+    -Infinity
+  ],
+  "338": [
+    -16.25,
+    -Infinity,
+    -Infinity,
+    -21.21875
+  ],
+  "339": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "340": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "341": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "342": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "343": [
+    -25.453125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "344": [
+    -6.58203125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "345": [
+    -43.96875,
+    -27.59375,
+    -Infinity,
+    -21.328125
+  ],
+  "346": [
+    -Infinity,
+    -20.734375,
+    -Infinity,
+    -Infinity
+  ],
+  "347": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -38.90625
+  ],
+  "348": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "349": [
+    -Infinity,
+    -23.5625,
+    -Infinity,
+    -Infinity
+  ],
+  "350": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "351": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "352": [
+    -7.7734375,
+    -10.078125,
+    -Infinity,
+    -Infinity
+  ],
+  "353": [
+    -Infinity,
+    -26.046875,
+    -Infinity,
+    -Infinity
+  ],
+  "354": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "355": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "356": [
+    -19.0625,
+    -Infinity,
+    -Infinity,
+    -28.6875
+  ],
+  "357": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -24.640625
+  ],
+  "358": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "359": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "360": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "361": [
+    -23.890625,
+    -47.5,
+    -Infinity,
+    -Infinity
+  ],
+  "362": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "363": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "364": [
+    -Infinity,
+    -18.265625,
+    -Infinity,
+    -26.078125
+  ],
+  "365": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "366": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "367": [
+    -Infinity,
+    -14.0078125,
+    -6.109375,
+    -3.982421875
+  ],
+  "368": [
+    -22.515625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "369": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "370": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "371": [
+    -10.2578125,
+    -Infinity,
+    -47.375,
+    -Infinity
+  ],
+  "372": [
+    -Infinity,
+    -27.734375,
+    -Infinity,
+    -Infinity
+  ],
+  "373": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "374": [
+    -Infinity,
+    -Infinity,
+    -20.75,
+    -16.375
+  ],
+  "375": [
+    -22.578125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "376": [
+    -14.1953125,
+    -Infinity,
+    -12.15625,
+    -Infinity
+  ],
+  "377": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "378": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "379": [
+    -21.484375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "380": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -10.09375
+  ],
+  "381": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "382": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -33.625
+  ],
+  "383": [
+    -11.4375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "384": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "385": [
+    -37.6875,
+    -18.1875,
+    -Infinity,
+    -Infinity
+  ],
+  "386": [
+    -Infinity,
+    -18.671875,
+    -Infinity,
+    -36.71875
+  ],
+  "387": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "388": [
+    -5.59375,
+    -8.984375,
+    -6.0625,
+    -Infinity
+  ],
+  "389": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "390": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -8.9140625
+  ],
+  "391": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "392": [
+    -2.896484375,
+    -1.7783203125,
+    -5.10546875,
+    -Infinity
+  ],
+  "393": [
+    -1.3251953125,
+    -1.3193359375,
+    -1.4365234375,
+    -Infinity
+  ],
+  "394": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "395": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "396": [
+    0.0,
+    -3.931640625,
+    -6.6796875,
+    -6.25390625
+  ],
+  "397": [
+    0.0,
+    -2.046875,
+    -Infinity,
+    -4.4453125
+  ],
+  "398": [
+    -Infinity,
+    -1.15625,
+    -1.7109375,
+    -1.2265625
+  ],
+  "399": [
+    -7.0625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "400": [
+    -3.86328125,
+    -2.5390625,
+    -2.947265625,
+    -5.7578125
+  ],
+  "401": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -1.2294921875
+  ],
+  "402": [
+    -13.2265625,
+    -Infinity,
+    -9.8515625,
+    -Infinity
+  ],
+  "403": [
+    -12.0390625,
+    -Infinity,
+    -Infinity,
+    -5.390625
+  ],
+  "404": [
+    -16.703125,
+    -22.953125,
+    -33.5625,
+    -Infinity
+  ],
+  "405": [
+    -3.107421875,
+    -2.732421875,
+    -5.79296875,
+    -4.828125
+  ],
+  "406": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -1.447265625
+  ],
+  "407": [
+    -Infinity,
+    -6.71484375,
+    -Infinity,
+    -10.1796875
+  ],
+  "408": [
+    -8.578125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "409": [
+    -4.08203125,
+    -6.9140625,
+    -Infinity,
+    -Infinity
+  ],
+  "410": [
+    -Infinity,
+    -Infinity,
+    -25.1875,
+    -Infinity
+  ],
+  "411": [
+    -2.69921875,
+    -2.203125,
+    -1.560546875,
+    -2.4453125
+  ],
+  "412": [
+    -3.671875,
+    -4.7421875,
+    -Infinity,
+    -7.390625
+  ],
+  "413": [
+    -4.0234375,
+    -Infinity,
+    -0.382080078125,
+    -0.45458984375
+  ],
+  "414": [
+    -3.35546875,
+    -2.466796875,
+    -4.125,
+    -3.64453125
+  ],
+  "415": [
+    -Infinity,
+    -17.171875,
+    -Infinity,
+    -Infinity
+  ],
+  "416": [
+    -Infinity,
+    -23.0625,
+    -Infinity,
+    -19.015625
+  ],
+  "417": [
+    -Infinity,
+    -Infinity,
+    -4.078125,
+    -3.42578125
+  ],
+  "418": [
+    -5.046875,
+    -Infinity,
+    -5.0078125,
+    -2.19921875
+  ],
+  "419": [
+    -4.37109375,
+    -2.068359375,
+    -2.720703125,
+    -Infinity
+  ],
+  "420": [
+    -2.431640625,
+    -Infinity,
+    -2.498046875,
+    -Infinity
+  ],
+  "421": [
+    -41.46875,
+    -11.4375,
+    -15.640625,
+    -Infinity
+  ],
+  "422": [
+    0.0,
+    -0.51611328125,
+    -0.734375,
+    -1.109375
+  ],
+  "423": [
+    -Infinity,
+    -Infinity,
+    -2.431640625,
+    -Infinity
+  ],
+  "424": [
+    -Infinity,
+    -11.0,
+    -Infinity,
+    -1.2451171875
+  ],
+  "425": [
+    -26.296875,
+    -38.28125,
+    -Infinity,
+    -Infinity
+  ],
+  "426": [
+    -Infinity,
+    -1.8896484375,
+    -Infinity,
+    -11.1953125
+  ],
+  "427": [
+    -21.546875,
+    -15.328125,
+    -11.390625,
+    -Infinity
+  ],
+  "428": [
+    -3.744140625,
+    -2.36328125,
+    -2.6015625,
+    -Infinity
+  ],
+  "429": [
+    -8.8828125,
+    -8.84375,
+    -3.103515625,
+    -2.8984375
+  ],
+  "430": [
+    -4.88671875,
+    -3.0390625,
+    -2.884765625,
+    -3.12890625
+  ],
+  "431": [
+    -2.48046875,
+    -2.01171875,
+    -1.9423828125,
+    -3.55078125
+  ],
+  "432": [
+    -3.49609375,
+    -3.93359375,
+    -4.23046875,
+    -4.07421875
+  ],
+  "433": [
+    -Infinity,
+    -15.734375,
+    -17.5,
+    -Infinity
+  ],
+  "434": [
+    -2.15234375,
+    -2.59765625,
+    -6.47265625,
+    -7.6328125
+  ],
+  "435": [
+    -3.62890625,
+    -2.763671875,
+    -6.37890625,
+    -4.9375
+  ],
+  "436": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "437": [
+    -3.728515625,
+    -2.23046875,
+    -Infinity,
+    -3.83984375
+  ],
+  "438": [
+    -9.2109375,
+    -15.5546875,
+    -10.5390625,
+    -10.625
+  ],
+  "439": [
+    -0.30078125,
+    0.0,
+    -0.32177734375,
+    -0.3720703125
+  ],
+  "440": [
+    -19.375,
+    -18.796875,
+    -18.875,
+    -29.21875
+  ],
+  "441": [
+    -1.03515625,
+    -1.33203125,
+    -2.19921875,
+    -2.44921875
+  ],
+  "442": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "443": [
+    -Infinity,
+    -7.1171875,
+    -Infinity,
+    -Infinity
+  ],
+  "444": [
+    -Infinity,
+    -1.79296875,
+    -Infinity,
+    -1.673828125
+  ],
+  "445": [
+    -4.65234375,
+    -2.97265625,
+    -2.7578125,
+    -6.2421875
+  ],
+  "446": [
+    -2.84765625,
+    -2.4453125,
+    -2.65234375,
+    -0.96826171875
+  ],
+  "447": [
+    -Infinity,
+    -7.34765625,
+    -6.203125,
+    -Infinity
+  ],
+  "448": [
+    -Infinity,
+    -10.8359375,
+    -18.203125,
+    -13.6796875
+  ],
+  "449": [
+    -3.115234375,
+    -Infinity,
+    -2.2109375,
+    -10.9375
+  ],
+  "450": [
+    -4.30078125,
+    -2.03515625,
+    -6.5078125,
+    -11.046875
+  ],
+  "451": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "452": [
+    -Infinity,
+    -2.87109375,
+    -2.923828125,
+    -Infinity
+  ],
+  "453": [
+    -2.37109375,
+    -1.4833984375,
+    -3.8828125,
+    -3.1640625
+  ],
+  "454": [
+    -5.65625,
+    -8.953125,
+    -8.53125,
+    -10.09375
+  ],
+  "455": [
+    -31.625,
+    -41.15625,
+    -Infinity,
+    -Infinity
+  ],
+  "456": [
+    -4.91796875,
+    -2.24609375,
+    -Infinity,
+    -4.48828125
+  ],
+  "457": [
+    -1.77734375,
+    -1.3037109375,
+    -Infinity,
+    -0.86181640625
+  ],
+  "458": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "459": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "460": [
+    -3.060546875,
+    -2.013671875,
+    -1.7958984375,
+    -4.015625
+  ],
+  "461": [
+    -Infinity,
+    -39.65625,
+    -Infinity,
+    -41.6875
+  ],
+  "462": [
+    -3.947265625,
+    -Infinity,
+    -1.6103515625,
+    -Infinity
+  ],
+  "463": [
+    -23.109375,
+    -Infinity,
+    -3.83203125,
+    -Infinity
+  ],
+  "464": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "465": [
+    -7.1171875,
+    -6.125,
+    -8.0546875,
+    -7.875
+  ],
+  "466": [
+    -2.337890625,
+    -1.6494140625,
+    -2.154296875,
+    -2.552734375
+  ],
+  "467": [
+    -5.31640625,
+    -8.0546875,
+    -0.7412109375,
+    -5.45703125
+  ],
+  "468": [
+    -2.029296875,
+    -1.759765625,
+    -2.408203125,
+    -0.83837890625
+  ],
+  "469": [
+    -0.447998046875,
+    -4.78515625,
+    -1.9482421875,
+    -3.642578125
+  ],
+  "470": [
+    -2.287109375,
+    -3.640625,
+    -Infinity,
+    -Infinity
+  ],
+  "471": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "472": [
+    -2.529296875,
+    -1.2587890625,
+    -2.146484375,
+    -4.2890625
+  ],
+  "473": [
+    -4.31640625,
+    -2.23046875,
+    -4.6796875,
+    -4.8828125
+  ],
+  "474": [
+    -2.6796875,
+    -2.1328125,
+    -3.25,
+    -Infinity
+  ],
+  "475": [
+    -Infinity,
+    -27.5625,
+    -Infinity,
+    -21.71875
+  ],
+  "476": [
+    -2.251953125,
+    -2.19921875,
+    -6.3515625,
+    -5.2578125
+  ],
+  "477": [
+    -4.0546875,
+    -16.796875,
+    -Infinity,
+    -2.55859375
+  ],
+  "478": [
+    -3.0390625,
+    -Infinity,
+    -Infinity,
+    -10.875
+  ],
+  "479": [
+    -Infinity,
+    -16.21875,
+    -Infinity,
+    -15.7578125
+  ],
+  "480": [
+    0.0,
+    -4.83984375,
+    -8.140625,
+    -Infinity
+  ],
+  "481": [
+    -26.234375,
+    -Infinity,
+    -11.8203125,
+    -Infinity
+  ],
+  "482": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "483": [
+    -3.28515625,
+    -2.30859375,
+    -2.76953125,
+    -Infinity
+  ],
+  "484": [
+    -Infinity,
+    -4.90234375,
+    -5.8984375,
+    -6.25390625
+  ],
+  "485": [
+    -4.61328125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "486": [
+    -8.2734375,
+    -6.2578125,
+    -Infinity,
+    -5.140625
+  ],
+  "487": [
+    -Infinity,
+    -11.3203125,
+    -Infinity,
+    -12.6953125
+  ],
+  "488": [
+    -Infinity,
+    -Infinity,
+    -14.4140625,
+    -Infinity
+  ],
+  "489": [
+    -9.5703125,
+    -11.2734375,
+    -8.5390625,
+    -9.46875
+  ],
+  "490": [
+    -14.2265625,
+    -Infinity,
+    -Infinity,
+    -17.515625
+  ],
+  "491": [
+    -15.234375,
+    -Infinity,
+    -15.5234375,
+    -Infinity
+  ],
+  "492": [
+    -Infinity,
+    -Infinity,
+    -10.453125,
+    -17.421875
+  ],
+  "493": [
+    -3.087890625,
+    -10.0703125,
+    -10.5078125,
+    -10.7734375
+  ],
+  "494": [
+    -Infinity,
+    -Infinity,
+    -14.0859375,
+    -24.171875
+  ],
+  "495": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -13.3984375
+  ],
+  "496": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "497": [
+    -6.36328125,
+    -Infinity,
+    -5.2265625,
+    -Infinity
+  ],
+  "498": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "499": [
+    -3.818359375,
+    -23.421875,
+    -8.375,
+    -11.2734375
+  ],
+  "500": [
+    -8.6328125,
+    -13.5703125,
+    -Infinity,
+    -Infinity
+  ],
+  "501": [
+    -19.046875,
+    -10.0,
+    -Infinity,
+    -9.953125
+  ],
+  "502": [
+    -Infinity,
+    -13.2109375,
+    -15.0390625,
+    -22.21875
+  ],
+  "503": [
+    -9.1328125,
+    -11.359375,
+    -Infinity,
+    -1.04296875
+  ],
+  "504": [
+    -0.896484375,
+    -7.21875,
+    -5.87109375,
+    -13.34375
+  ],
+  "505": [
+    -Infinity,
+    -12.453125,
+    -Infinity,
+    -24.515625
+  ],
+  "506": [
+    -16.15625,
+    -7.0234375,
+    -13.90625,
+    -15.78125
+  ],
+  "507": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "508": [
+    -Infinity,
+    -9.4609375,
+    -5.66015625,
+    -10.578125
+  ],
+  "509": [
+    -9.1640625,
+    -7.5703125,
+    -Infinity,
+    -11.2421875
+  ],
+  "510": [
+    -5.76171875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "511": [
+    -8.9453125,
+    -10.6875,
+    -8.5078125,
+    -10.1015625
+  ],
+  "512": [
+    -Infinity,
+    -12.5078125,
+    -Infinity,
+    -Infinity
+  ],
+  "513": [
+    -Infinity,
+    -23.484375,
+    -16.15625,
+    -9.0078125
+  ],
+  "514": [
+    -12.1875,
+    -13.9140625,
+    -Infinity,
+    -Infinity
+  ],
+  "515": [
+    -0.64404296875,
+    -15.1171875,
+    -Infinity,
+    -Infinity
+  ],
+  "516": [
+    -Infinity,
+    -Infinity,
+    -10.15625,
+    -Infinity
+  ],
+  "517": [
+    -13.75,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "518": [
+    -9.4140625,
+    -Infinity,
+    -15.5234375,
+    -12.0234375
+  ],
+  "519": [
+    -21.15625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "520": [
+    -Infinity,
+    -23.28125,
+    -20.625,
+    -Infinity
+  ],
+  "521": [
+    -10.8828125,
+    -Infinity,
+    -11.8359375,
+    -14.2421875
+  ],
+  "522": [
+    -7.9375,
+    -9.21875,
+    -Infinity,
+    -9.796875
+  ],
+  "523": [
+    -10.46875,
+    -Infinity,
+    -Infinity,
+    -22.71875
+  ],
+  "524": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.2421875
+  ],
+  "525": [
+    -15.3046875,
+    -5.484375,
+    -12.6328125,
+    -12.234375
+  ],
+  "526": [
+    -24.453125,
+    -15.59375,
+    -12.03125,
+    -12.7734375
+  ],
+  "527": [
+    -10.515625,
+    -Infinity,
+    -12.671875,
+    -Infinity
+  ],
+  "528": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "529": [
+    -5.4765625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "530": [
+    -1.984375,
+    -Infinity,
+    -13.0078125,
+    -Infinity
+  ],
+  "531": [
+    -11.3984375,
+    -10.6484375,
+    -7.88671875,
+    -6.57421875
+  ],
+  "532": [
+    -1.08984375,
+    -7.13671875,
+    -4.6640625,
+    -3.39453125
+  ],
+  "533": [
+    -Infinity,
+    -16.359375,
+    -20.765625,
+    -Infinity
+  ],
+  "534": [
+    -Infinity,
+    -5.3515625,
+    -Infinity,
+    -Infinity
+  ],
+  "535": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -10.3046875
+  ],
+  "536": [
+    -5.078125,
+    -13.078125,
+    -Infinity,
+    -10.4140625
+  ],
+  "537": [
+    -Infinity,
+    -3.541015625,
+    -7.1171875,
+    -Infinity
+  ],
+  "538": [
+    -Infinity,
+    -Infinity,
+    -2.486328125,
+    -Infinity
+  ],
+  "539": [
+    -Infinity,
+    -Infinity,
+    -9.9296875,
+    -Infinity
+  ],
+  "540": [
+    -9.046875,
+    -6.625,
+    -Infinity,
+    -4.71875
+  ],
+  "541": [
+    -17.5625,
+    -13.71875,
+    -Infinity,
+    -17.28125
+  ],
+  "542": [
+    -Infinity,
+    -4.9140625,
+    -17.625,
+    -16.015625
+  ],
+  "543": [
+    -13.0546875,
+    -10.125,
+    -10.5703125,
+    -Infinity
+  ],
+  "544": [
+    -Infinity,
+    -16.109375,
+    -36.28125,
+    -17.984375
+  ],
+  "545": [
+    -Infinity,
+    -25.0,
+    -Infinity,
+    -11.84375
+  ],
+  "546": [
+    -Infinity,
+    -15.6015625,
+    -Infinity,
+    -Infinity
+  ],
+  "547": [
+    -12.109375,
+    -14.6640625,
+    -19.71875,
+    -10.3671875
+  ],
+  "548": [
+    -0.6513671875,
+    -3.5625,
+    -1.283203125,
+    -8.9765625
+  ],
+  "549": [
+    -4.24609375,
+    -7.2578125,
+    -3.640625,
+    -Infinity
+  ],
+  "550": [
+    -14.921875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "551": [
+    -Infinity,
+    -23.75,
+    -13.2890625,
+    -18.15625
+  ],
+  "552": [
+    -Infinity,
+    -13.359375,
+    -Infinity,
+    -Infinity
+  ],
+  "553": [
+    -14.2578125,
+    -11.5703125,
+    -Infinity,
+    -15.4140625
+  ],
+  "554": [
+    -26.6875,
+    -17.28125,
+    -10.796875,
+    -19.265625
+  ],
+  "555": [
+    -5.4375,
+    -2.3984375,
+    -0.9697265625,
+    -2.853515625
+  ],
+  "556": [
+    -14.7265625,
+    -15.3203125,
+    -Infinity,
+    -9.5859375
+  ],
+  "557": [
+    -12.90625,
+    -8.7890625,
+    -7.47265625,
+    -6.79296875
+  ],
+  "558": [
+    -4.05859375,
+    -Infinity,
+    -Infinity,
+    -8.9375
+  ],
+  "559": [
+    -9.4453125,
+    -8.8515625,
+    -13.3984375,
+    -7.9296875
+  ],
+  "560": [
+    -12.4375,
+    -11.921875,
+    -16.40625,
+    -14.65625
+  ],
+  "561": [
+    -Infinity,
+    -13.9453125,
+    -Infinity,
+    -13.96875
+  ],
+  "562": [
+    -Infinity,
+    -Infinity,
+    -16.875,
+    -10.5625
+  ],
+  "563": [
+    -Infinity,
+    -3.666015625,
+    -5.66015625,
+    -6.2265625
+  ],
+  "564": [
+    -11.296875,
+    -0.88427734375,
+    -Infinity,
+    -7.828125
+  ],
+  "565": [
+    -7.94140625,
+    -13.5546875,
+    -14.84375,
+    -15.6484375
+  ],
+  "566": [
+    -8.453125,
+    -7.77734375,
+    -6.953125,
+    -7.625
+  ],
+  "567": [
+    -Infinity,
+    -Infinity,
+    -14.7109375,
+    -16.09375
+  ],
+  "568": [
+    -Infinity,
+    -4.80859375,
+    -6.5703125,
+    -Infinity
+  ],
+  "569": [
+    -Infinity,
+    -Infinity,
+    -10.734375,
+    -15.9296875
+  ],
+  "570": [
+    -Infinity,
+    -5.640625,
+    -3.810546875,
+    -5.359375
+  ],
+  "571": [
+    -21.40625,
+    -10.359375,
+    -12.796875,
+    -Infinity
+  ],
+  "572": [
+    -Infinity,
+    -12.390625,
+    -23.921875,
+    -Infinity
+  ],
+  "573": [
+    -Infinity,
+    -Infinity,
+    -9.4921875,
+    -11.8125
+  ],
+  "574": [
+    -5.93359375,
+    -6.13671875,
+    -10.6328125,
+    -6.28125
+  ],
+  "575": [
+    -Infinity,
+    -Infinity,
+    -12.09375,
+    -Infinity
+  ],
+  "576": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "577": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "578": [
+    -13.7578125,
+    -11.65625,
+    -7.4609375,
+    -6.69921875
+  ],
+  "579": [
+    -12.421875,
+    -10.375,
+    -8.1484375,
+    -Infinity
+  ],
+  "580": [
+    -Infinity,
+    -8.921875,
+    -8.9921875,
+    -16.640625
+  ],
+  "581": [
+    -6.53125,
+    -Infinity,
+    -1.5322265625,
+    -7.859375
+  ],
+  "582": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.453125
+  ],
+  "583": [
+    -Infinity,
+    -13.5,
+    -12.8046875,
+    -20.78125
+  ],
+  "584": [
+    -Infinity,
+    -Infinity,
+    -13.9453125,
+    -6.046875
+  ],
+  "585": [
+    -Infinity,
+    -8.203125,
+    -5.64453125,
+    -12.1875
+  ],
+  "586": [
+    -Infinity,
+    -7.27734375,
+    -Infinity,
+    -Infinity
+  ],
+  "587": [
+    -Infinity,
+    -9.1171875,
+    -Infinity,
+    -Infinity
+  ],
+  "588": [
+    -13.5234375,
+    -34.71875,
+    -12.453125,
+    -21.296875
+  ],
+  "589": [
+    -2.1015625,
+    -Infinity,
+    -9.609375,
+    -7.24609375
+  ],
+  "590": [
+    -22.984375,
+    -13.9453125,
+    -14.9296875,
+    -16.90625
+  ],
+  "591": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "592": [
+    -Infinity,
+    -Infinity,
+    -13.953125,
+    -Infinity
+  ],
+  "593": [
+    -Infinity,
+    -11.40625,
+    -Infinity,
+    -Infinity
+  ],
+  "594": [
+    -14.15625,
+    -Infinity,
+    -10.90625,
+    -6.9453125
+  ],
+  "595": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -10.859375
+  ],
+  "596": [
+    -Infinity,
+    -Infinity,
+    -13.3125,
+    -Infinity
+  ],
+  "597": [
+    -Infinity,
+    -5.03125,
+    -Infinity,
+    -Infinity
+  ],
+  "598": [
+    -6.296875,
+    -8.6796875,
+    -Infinity,
+    -12.9765625
+  ],
+  "599": [
+    -11.1875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "600": [
+    -13.40625,
+    -20.953125,
+    -16.84375,
+    -13.3828125
+  ],
+  "601": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "602": [
+    -11.3828125,
+    -Infinity,
+    -11.6875,
+    -9.8671875
+  ],
+  "603": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.25
+  ],
+  "604": [
+    -7.2265625,
+    -9.4375,
+    -3.05859375,
+    -4.1171875
+  ],
+  "605": [
+    -Infinity,
+    -21.21875,
+    -11.921875,
+    -17.046875
+  ],
+  "606": [
+    -1.2861328125,
+    -11.0625,
+    -7.734375,
+    -Infinity
+  ],
+  "607": [
+    -Infinity,
+    -21.1875,
+    -Infinity,
+    -Infinity
+  ],
+  "608": [
+    -9.8359375,
+    -13.0859375,
+    -13.28125,
+    -Infinity
+  ],
+  "609": [
+    -9.8125,
+    -Infinity,
+    -9.0546875,
+    -8.359375
+  ],
+  "610": [
+    -Infinity,
+    -Infinity,
+    -11.9609375,
+    -Infinity
+  ],
+  "611": [
+    -Infinity,
+    -Infinity,
+    -12.84375,
+    -Infinity
+  ],
+  "612": [
+    -Infinity,
+    -8.140625,
+    -7.6640625,
+    -Infinity
+  ],
+  "613": [
+    -Infinity,
+    -12.640625,
+    -11.2265625,
+    -11.3984375
+  ],
+  "614": [
+    -2.16796875,
+    -8.578125,
+    -8.2734375,
+    -Infinity
+  ],
+  "615": [
+    -3.51171875,
+    -1.0869140625,
+    -2.865234375,
+    -1.9462890625
+  ],
+  "616": [
+    -22.984375,
+    -13.5078125,
+    -7.3671875,
+    -Infinity
+  ],
+  "617": [
+    -1.51953125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "618": [
+    -10.390625,
+    -12.1171875,
+    -11.9453125,
+    -Infinity
+  ],
+  "619": [
+    -1.8701171875,
+    -2.14453125,
+    -2.810546875,
+    -2.5546875
+  ],
+  "620": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "621": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -16.4375
+  ],
+  "622": [
+    -15.2421875,
+    -10.390625,
+    -3.474609375,
+    -3.392578125
+  ],
+  "623": [
+    -Infinity,
+    -16.0,
+    -Infinity,
+    -15.078125
+  ],
+  "624": [
+    -Infinity,
+    -Infinity,
+    -20.953125,
+    -Infinity
+  ],
+  "625": [
+    -18.453125,
+    -Infinity,
+    -13.8359375,
+    -Infinity
+  ],
+  "626": [
+    -9.0859375,
+    -Infinity,
+    -Infinity,
+    -6.66015625
+  ],
+  "627": [
+    -15.53125,
+    -14.828125,
+    -11.6171875,
+    -13.0703125
+  ],
+  "628": [
+    -Infinity,
+    -5.8828125,
+    -5.7109375,
+    -2.9609375
+  ],
+  "629": [
+    -Infinity,
+    -Infinity,
+    -16.125,
+    -1.0673828125
+  ],
+  "630": [
+    -3.435546875,
+    -9.3046875,
+    -Infinity,
+    -4.06640625
+  ],
+  "631": [
+    -Infinity,
+    -14.6640625,
+    -Infinity,
+    -Infinity
+  ],
+  "632": [
+    -Infinity,
+    -12.6640625,
+    -Infinity,
+    -9.890625
+  ],
+  "633": [
+    -Infinity,
+    -17.046875,
+    -Infinity,
+    -7.05859375
+  ],
+  "634": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "635": [
+    -18.53125,
+    -13.7109375,
+    -18.96875,
+    -Infinity
+  ],
+  "636": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "637": [
+    -Infinity,
+    -1.2578125,
+    -8.0859375,
+    -6.0703125
+  ],
+  "638": [
+    -3.4296875,
+    -1.53515625,
+    -0.7978515625,
+    -4.2265625
+  ],
+  "639": [
+    -Infinity,
+    -6.63671875,
+    -Infinity,
+    -4.31640625
+  ],
+  "640": [
+    -5.80078125,
+    -13.4296875,
+    -14.71875,
+    -Infinity
+  ],
+  "641": [
+    -1.4248046875,
+    -4.9296875,
+    -4.23828125,
+    -1.5458984375
+  ],
+  "642": [
+    -12.9609375,
+    -Infinity,
+    -13.8046875,
+    -18.765625
+  ],
+  "643": [
+    -22.546875,
+    -Infinity,
+    -Infinity,
+    -13.8359375
+  ],
+  "644": [
+    -15.921875,
+    -7.63671875,
+    -14.890625,
+    -14.6875
+  ],
+  "645": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.2578125
+  ],
+  "646": [
+    -13.421875,
+    -15.2890625,
+    -Infinity,
+    -14.5625
+  ],
+  "647": [
+    -11.671875,
+    -12.5234375,
+    -3.03125,
+    -9.59375
+  ],
+  "648": [
+    -5.375,
+    -9.84375,
+    -7.07421875,
+    -9.1953125
+  ],
+  "649": [
+    -12.6484375,
+    -13.890625,
+    -9.9296875,
+    -16.796875
+  ],
+  "650": [
+    -16.609375,
+    -1.314453125,
+    -13.6796875,
+    -15.0078125
+  ],
+  "651": [
+    -Infinity,
+    -9.140625,
+    -0.74853515625,
+    -12.7265625
+  ],
+  "652": [
+    -4.3046875,
+    -1.908203125,
+    -1.826171875,
+    -5.640625
+  ],
+  "653": [
+    -8.859375,
+    -Infinity,
+    -4.60546875,
+    -Infinity
+  ],
+  "654": [
+    -Infinity,
+    -14.75,
+    -12.0390625,
+    -9.28125
+  ],
+  "655": [
+    -4.4375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "656": [
+    -Infinity,
+    -14.375,
+    -9.0859375,
+    -Infinity
+  ],
+  "657": [
+    -Infinity,
+    -11.0390625,
+    -8.5234375,
+    -7.97265625
+  ],
+  "658": [
+    -9.4375,
+    -Infinity,
+    -Infinity,
+    -10.640625
+  ],
+  "659": [
+    -Infinity,
+    -9.8125,
+    -25.53125,
+    -5.81640625
+  ],
+  "660": [
+    -23.09375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "661": [
+    -16.171875,
+    -Infinity,
+    -10.84375,
+    -Infinity
+  ],
+  "662": [
+    -11.1953125,
+    -7.0078125,
+    -4.765625,
+    -5.8046875
+  ],
+  "663": [
+    -4.79296875,
+    -7.4140625,
+    -2.138671875,
+    -Infinity
+  ],
+  "664": [
+    -Infinity,
+    -5.86328125,
+    -9.03125,
+    -9.9453125
+  ],
+  "665": [
+    -Infinity,
+    -12.359375,
+    -0.69140625,
+    -Infinity
+  ],
+  "666": [
+    -13.0234375,
+    -9.21875,
+    -11.953125,
+    -23.53125
+  ],
+  "667": [
+    -Infinity,
+    -Infinity,
+    -9.203125,
+    -Infinity
+  ],
+  "668": [
+    -8.578125,
+    -14.7109375,
+    -14.625,
+    -8.7890625
+  ],
+  "669": [
+    -Infinity,
+    -Infinity,
+    -12.6796875,
+    -10.2890625
+  ],
+  "670": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -11.4765625
+  ],
+  "671": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -5.09765625
+  ],
+  "672": [
+    -6.5390625,
+    -Infinity,
+    -4.4375,
+    -2.173828125
+  ],
+  "673": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "674": [
+    -8.421875,
+    -5.75,
+    -Infinity,
+    -17.203125
+  ],
+  "675": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "676": [
+    -14.9453125,
+    -Infinity,
+    -13.53125,
+    -Infinity
+  ],
+  "677": [
+    -19.875,
+    -Infinity,
+    -16.640625,
+    -Infinity
+  ],
+  "678": [
+    -20.5,
+    -29.65625,
+    -18.453125,
+    -Infinity
+  ],
+  "679": [
+    -20.40625,
+    -4.10546875,
+    -11.0078125,
+    -20.5
+  ],
+  "680": [
+    -Infinity,
+    -9.328125,
+    -Infinity,
+    -28.234375
+  ],
+  "681": [
+    -11.6484375,
+    -18.375,
+    -Infinity,
+    -13.265625
+  ],
+  "682": [
+    -8.546875,
+    -9.953125,
+    -17.65625,
+    -9.453125
+  ],
+  "683": [
+    -24.25,
+    -13.2109375,
+    -14.9921875,
+    -8.390625
+  ],
+  "684": [
+    -15.6875,
+    -Infinity,
+    -10.5625,
+    -Infinity
+  ],
+  "685": [
+    -1.1591796875,
+    -10.4453125,
+    -9.171875,
+    -1.4345703125
+  ],
+  "686": [
+    -6.078125,
+    -Infinity,
+    -Infinity,
+    -10.21875
+  ],
+  "687": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "688": [
+    -10.6328125,
+    -10.15625,
+    -5.765625,
+    -Infinity
+  ],
+  "689": [
+    -Infinity,
+    -11.7734375,
+    -Infinity,
+    -12.5390625
+  ],
+  "690": [
+    -23.421875,
+    -16.828125,
+    -11.5,
+    -16.1875
+  ],
+  "691": [
+    -8.359375,
+    -11.8125,
+    -Infinity,
+    -11.9609375
+  ],
+  "692": [
+    -Infinity,
+    -4.7265625,
+    -4.52734375,
+    -0.724609375
+  ],
+  "693": [
+    -13.265625,
+    -Infinity,
+    -10.8671875,
+    -13.4765625
+  ],
+  "694": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "695": [
+    -7.12890625,
+    -8.5234375,
+    -6.890625,
+    -7.4140625
+  ],
+  "696": [
+    -2.42578125,
+    -Infinity,
+    -Infinity,
+    -8.28125
+  ],
+  "697": [
+    -20.234375,
+    -Infinity,
+    -16.875,
+    -16.734375
+  ],
+  "698": [
+    -Infinity,
+    -20.40625,
+    -Infinity,
+    -5.23046875
+  ],
+  "699": [
+    -16.84375,
+    -Infinity,
+    -6.1171875,
+    -Infinity
+  ],
+  "700": [
+    -2.81640625,
+    -2.984375,
+    -7.4140625,
+    -2.177734375
+  ],
+  "701": [
+    -5.578125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "702": [
+    -7.24609375,
+    -Infinity,
+    -6.6796875,
+    -3.154296875
+  ],
+  "703": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "704": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -7.66015625
+  ],
+  "705": [
+    -9.1796875,
+    -6.0,
+    -14.359375,
+    -Infinity
+  ],
+  "706": [
+    -5.21875,
+    -1.052734375,
+    -0.431396484375,
+    -5.27734375
+  ],
+  "707": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "708": [
+    -5.8828125,
+    -16.640625,
+    -Infinity,
+    -8.484375
+  ],
+  "709": [
+    -26.15625,
+    -4.84765625,
+    -6.25390625,
+    -6.625
+  ],
+  "710": [
+    -19.96875,
+    -17.953125,
+    -Infinity,
+    -Infinity
+  ],
+  "711": [
+    -8.59375,
+    -Infinity,
+    -7.9140625,
+    -2.87109375
+  ],
+  "712": [
+    -12.125,
+    -Infinity,
+    -Infinity,
+    -13.1953125
+  ],
+  "713": [
+    -Infinity,
+    -Infinity,
+    -11.6484375,
+    -5.60546875
+  ],
+  "714": [
+    -5.8984375,
+    -Infinity,
+    -Infinity,
+    -8.390625
+  ],
+  "715": [
+    -4.11328125,
+    -6.0390625,
+    -Infinity,
+    -Infinity
+  ],
+  "716": [
+    -6.69921875,
+    -5.296875,
+    -4.54296875,
+    -4.61328125
+  ],
+  "717": [
+    -9.2734375,
+    -0.67822265625,
+    -6.89453125,
+    -3.458984375
+  ],
+  "718": [
+    -3.322265625,
+    -0.84326171875,
+    -6.2890625,
+    -2.017578125
+  ],
+  "719": [
+    -11.6328125,
+    -Infinity,
+    -12.703125,
+    -12.6640625
+  ],
+  "720": [
+    -Infinity,
+    -4.80078125,
+    -3.84375,
+    -15.140625
+  ],
+  "721": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -12.578125
+  ],
+  "722": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -17.4375
+  ],
+  "723": [
+    -Infinity,
+    -12.1953125,
+    -10.609375,
+    -4.75390625
+  ],
+  "724": [
+    -17.578125,
+    -15.1640625,
+    -18.609375,
+    -16.25
+  ],
+  "725": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "726": [
+    -13.890625,
+    -9.234375,
+    -Infinity,
+    -Infinity
+  ],
+  "727": [
+    -12.203125,
+    -Infinity,
+    -9.9296875,
+    -10.5859375
+  ],
+  "728": [
+    -36.875,
+    -12.8046875,
+    -Infinity,
+    -12.0078125
+  ],
+  "729": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "730": [
+    -10.9765625,
+    -3.767578125,
+    -6.77734375,
+    -5.90625
+  ],
+  "731": [
+    -Infinity,
+    -10.25,
+    -Infinity,
+    -10.875
+  ],
+  "732": [
+    -14.8046875,
+    -Infinity,
+    -7.16015625,
+    -7.625
+  ],
+  "733": [
+    -11.90625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "734": [
+    -Infinity,
+    -Infinity,
+    -18.40625,
+    -16.515625
+  ],
+  "735": [
+    -4.765625,
+    -Infinity,
+    -5.27734375,
+    -5.75
+  ],
+  "736": [
+    -17.515625,
+    -Infinity,
+    -24.296875,
+    -Infinity
+  ],
+  "737": [
+    -19.328125,
+    -10.671875,
+    -Infinity,
+    -13.46875
+  ],
+  "738": [
+    -16.34375,
+    -9.1015625,
+    -Infinity,
+    -11.671875
+  ],
+  "739": [
+    -9.9921875,
+    -7.41015625,
+    -8.7578125,
+    -7.4765625
+  ],
+  "740": [
+    -5.6328125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "741": [
+    -12.265625,
+    -10.65625,
+    -9.15625,
+    -15.84375
+  ],
+  "742": [
+    -10.7734375,
+    -Infinity,
+    -Infinity,
+    -6.171875
+  ],
+  "743": [
+    -8.8125,
+    -Infinity,
+    -Infinity,
+    -15.1171875
+  ],
+  "744": [
+    -8.6484375,
+    -9.2421875,
+    -9.1796875,
+    -Infinity
+  ],
+  "745": [
+    -41.21875,
+    -Infinity,
+    -20.078125,
+    -16.515625
+  ],
+  "746": [
+    -14.7734375,
+    -7.4296875,
+    -13.0859375,
+    -8.6328125
+  ],
+  "747": [
+    -Infinity,
+    -13.1875,
+    -3.0078125,
+    -Infinity
+  ],
+  "748": [
+    -6.2265625,
+    -Infinity,
+    -3.8203125,
+    -4.28125
+  ],
+  "749": [
+    -0.54638671875,
+    -Infinity,
+    -1.5537109375,
+    -3.255859375
+  ],
+  "750": [
+    -Infinity,
+    -12.0,
+    -11.1640625,
+    -21.28125
+  ],
+  "751": [
+    -17.8125,
+    -20.203125,
+    -20.953125,
+    -Infinity
+  ],
+  "752": [
+    -6.359375,
+    -16.375,
+    -Infinity,
+    -Infinity
+  ],
+  "753": [
+    -13.625,
+    -Infinity,
+    -26.3125,
+    -21.203125
+  ],
+  "754": [
+    -Infinity,
+    -Infinity,
+    -10.75,
+    -Infinity
+  ],
+  "755": [
+    -0.5771484375,
+    -6.48828125,
+    -0.501953125,
+    -3.04296875
+  ],
+  "756": [
+    -Infinity,
+    -Infinity,
+    -10.6640625,
+    -Infinity
+  ],
+  "757": [
+    -15.6484375,
+    -10.59375,
+    -4.75,
+    -0.9130859375
+  ],
+  "758": [
+    -Infinity,
+    -9.046875,
+    -Infinity,
+    -8.7890625
+  ],
+  "759": [
+    -Infinity,
+    -10.3515625,
+    -20.03125,
+    -14.9609375
+  ],
+  "760": [
+    -0.468994140625,
+    -0.473876953125,
+    -1.0537109375,
+    -2.779296875
+  ],
+  "761": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -12.75
+  ],
+  "762": [
+    -Infinity,
+    -Infinity,
+    -13.90625,
+    -Infinity
+  ],
+  "763": [
+    -Infinity,
+    -Infinity,
+    -8.09375,
+    -18.046875
+  ],
+  "764": [
+    -6.3984375,
+    -2.224609375,
+    -Infinity,
+    -Infinity
+  ],
+  "765": [
+    -Infinity,
+    -11.4765625,
+    -Infinity,
+    -13.2734375
+  ],
+  "766": [
+    -Infinity,
+    -Infinity,
+    -25.65625,
+    -11.9765625
+  ],
+  "767": [
+    -Infinity,
+    -5.0859375,
+    -4.33984375,
+    -10.6953125
+  ],
+  "768": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "769": [
+    -20.046875,
+    -15.921875,
+    -13.0546875,
+    -13.7109375
+  ],
+  "770": [
+    -14.5703125,
+    -16.1875,
+    -14.921875,
+    -1.9697265625
+  ],
+  "771": [
+    -Infinity,
+    -21.203125,
+    -14.7890625,
+    -4.2421875
+  ],
+  "772": [
+    -Infinity,
+    -12.484375,
+    -Infinity,
+    -16.171875
+  ],
+  "773": [
+    -1.1376953125,
+    -1.5234375,
+    -5.3671875,
+    -2.109375
+  ],
+  "774": [
+    -Infinity,
+    -Infinity,
+    -11.140625,
+    -16.796875
+  ],
+  "775": [
+    -13.0078125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "776": [
+    -Infinity,
+    -18.53125,
+    -13.4765625,
+    -19.21875
+  ],
+  "777": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "778": [
+    -Infinity,
+    -16.640625,
+    -9.8125,
+    -19.53125
+  ],
+  "779": [
+    -Infinity,
+    -17.8125,
+    -19.53125,
+    -16.03125
+  ],
+  "780": [
+    -6.88671875,
+    -16.515625,
+    -7.6171875,
+    -16.34375
+  ],
+  "781": [
+    -20.140625,
+    -16.25,
+    -14.109375,
+    -28.046875
+  ],
+  "782": [
+    -Infinity,
+    -7.62109375,
+    -Infinity,
+    -Infinity
+  ],
+  "783": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "784": [
+    -6.73828125,
+    -11.828125,
+    -20.296875,
+    -5.7265625
+  ],
+  "785": [
+    -9.734375,
+    -22.8125,
+    -Infinity,
+    -9.21875
+  ],
+  "786": [
+    -9.5546875,
+    -11.484375,
+    -7.26171875,
+    -9.8828125
+  ],
+  "787": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -4.5234375
+  ],
+  "788": [
+    -6.6640625,
+    -Infinity,
+    -6.99609375,
+    -5.296875
+  ],
+  "789": [
+    -15.8359375,
+    -Infinity,
+    -Infinity,
+    -16.59375
+  ],
+  "790": [
+    -Infinity,
+    -Infinity,
+    -9.515625,
+    -13.6640625
+  ],
+  "791": [
+    -2.794921875,
+    -2.587890625,
+    -3.4453125,
+    -10.4296875
+  ],
+  "792": [
+    -Infinity,
+    -11.015625,
+    -12.3984375,
+    -9.8125
+  ],
+  "793": [
+    -2.56640625,
+    -0.791015625,
+    -11.90625,
+    -1.068359375
+  ],
+  "794": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "795": [
+    -14.1484375,
+    -14.953125,
+    -19.9375,
+    -13.4765625
+  ],
+  "796": [
+    -Infinity,
+    -Infinity,
+    -1.220703125,
+    -15.4609375
+  ],
+  "797": [
+    -22.34375,
+    -15.6328125,
+    -Infinity,
+    -24.828125
+  ],
+  "798": [
+    -13.1875,
+    -Infinity,
+    -Infinity,
+    -10.8828125
+  ],
+  "799": [
+    -Infinity,
+    -7.72265625,
+    -8.0078125,
+    -6.953125
+  ],
+  "800": [
+    -13.921875,
+    -12.5078125,
+    -Infinity,
+    -13.3671875
+  ],
+  "801": [
+    -17.53125,
+    -9.6015625,
+    -Infinity,
+    -Infinity
+  ],
+  "802": [
+    -Infinity,
+    -Infinity,
+    -9.84375,
+    -13.234375
+  ],
+  "803": [
+    -16.453125,
+    -11.1015625,
+    -Infinity,
+    -13.2265625
+  ],
+  "804": [
+    -8.3359375,
+    -10.8125,
+    -8.6171875,
+    -6.671875
+  ],
+  "805": [
+    -8.5,
+    -11.015625,
+    -7.65625,
+    -Infinity
+  ],
+  "806": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.80078125
+  ],
+  "807": [
+    -10.359375,
+    -5.109375,
+    -Infinity,
+    -12.75
+  ],
+  "808": [
+    -18.921875,
+    -Infinity,
+    -13.4140625,
+    -21.25
+  ],
+  "809": [
+    -Infinity,
+    -15.21875,
+    -27.828125,
+    -8.4921875
+  ],
+  "810": [
+    -14.6640625,
+    -18.578125,
+    -Infinity,
+    -Infinity
+  ],
+  "811": [
+    -Infinity,
+    -10.4453125,
+    -Infinity,
+    -Infinity
+  ],
+  "812": [
+    -Infinity,
+    -Infinity,
+    -13.390625,
+    -Infinity
+  ],
+  "813": [
+    -14.1171875,
+    -12.546875,
+    -19.3125,
+    -21.796875
+  ],
+  "814": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "815": [
+    -Infinity,
+    -Infinity,
+    -12.8046875,
+    -28.46875
+  ],
+  "816": [
+    -7.65234375,
+    -1.1259765625,
+    -1.3359375,
+    -9.25
+  ],
+  "817": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "818": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "819": [
+    -12.015625,
+    -16.15625,
+    -Infinity,
+    -24.96875
+  ],
+  "820": [
+    -12.4375,
+    -14.6484375,
+    -4.1328125,
+    -14.734375
+  ],
+  "821": [
+    -12.078125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "822": [
+    -25.5,
+    -Infinity,
+    -10.2734375,
+    -14.265625
+  ],
+  "823": [
+    -13.1640625,
+    -13.7734375,
+    -15.1171875,
+    -6.703125
+  ],
+  "824": [
+    -11.3125,
+    -10.515625,
+    -17.734375,
+    -13.0234375
+  ],
+  "825": [
+    -10.0,
+    -7.59375,
+    -Infinity,
+    -11.703125
+  ],
+  "826": [
+    -14.84375,
+    -Infinity,
+    -Infinity,
+    -9.796875
+  ],
+  "827": [
+    -Infinity,
+    -6.54296875,
+    -Infinity,
+    -Infinity
+  ],
+  "828": [
+    -18.015625,
+    -15.1875,
+    -Infinity,
+    -6.46484375
+  ],
+  "829": [
+    -5.58203125,
+    -Infinity,
+    -12.609375,
+    -7.5703125
+  ],
+  "830": [
+    -Infinity,
+    -Infinity,
+    -10.5078125,
+    -1.859375
+  ],
+  "831": [
+    -9.2578125,
+    -7.41015625,
+    -9.4453125,
+    -12.484375
+  ],
+  "832": [
+    -Infinity,
+    -8.6171875,
+    -15.6484375,
+    -9.8125
+  ],
+  "833": [
+    -Infinity,
+    -10.0546875,
+    -13.0625,
+    -12.6640625
+  ],
+  "834": [
+    -13.03125,
+    -Infinity,
+    -17.5,
+    -Infinity
+  ],
+  "835": [
+    -Infinity,
+    -21.765625,
+    -15.1875,
+    -Infinity
+  ],
+  "836": [
+    -Infinity,
+    -6.68359375,
+    -12.4375,
+    -5.59375
+  ],
+  "837": [
+    -5.05859375,
+    -11.875,
+    -15.546875,
+    -Infinity
+  ],
+  "838": [
+    -Infinity,
+    -16.5,
+    -9.515625,
+    -10.046875
+  ],
+  "839": [
+    -15.046875,
+    -Infinity,
+    -17.125,
+    -13.515625
+  ],
+  "840": [
+    -8.9296875,
+    -Infinity,
+    -16.375,
+    -14.328125
+  ],
+  "841": [
+    -Infinity,
+    -11.328125,
+    -6.28515625,
+    -5.3515625
+  ],
+  "842": [
+    -Infinity,
+    -14.4921875,
+    -8.078125,
+    -17.671875
+  ],
+  "843": [
+    -16.828125,
+    -10.953125,
+    -Infinity,
+    -10.265625
+  ],
+  "844": [
+    -8.078125,
+    -9.1328125,
+    -Infinity,
+    -22.0
+  ],
+  "845": [
+    -4.74609375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "846": [
+    -Infinity,
+    -Infinity,
+    -9.6796875,
+    -Infinity
+  ],
+  "847": [
+    -6.140625,
+    -12.71875,
+    -10.640625,
+    -17.25
+  ],
+  "848": [
+    -1.5556640625,
+    -1.3056640625,
+    -Infinity,
+    -1.5224609375
+  ],
+  "849": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -23.21875
+  ],
+  "850": [
+    -Infinity,
+    -5.55859375,
+    -16.296875,
+    -Infinity
+  ],
+  "851": [
+    -8.9609375,
+    -7.1328125,
+    -6.97265625,
+    -Infinity
+  ],
+  "852": [
+    -2.41796875,
+    -3.095703125,
+    -1.68359375,
+    -3.13671875
+  ],
+  "853": [
+    -Infinity,
+    -18.9375,
+    -Infinity,
+    -Infinity
+  ],
+  "854": [
+    -Infinity,
+    -12.515625,
+    -7.52734375,
+    -10.1484375
+  ],
+  "855": [
+    -14.1015625,
+    -8.03125,
+    -4.22265625,
+    -16.421875
+  ],
+  "856": [
+    -Infinity,
+    -9.3125,
+    -Infinity,
+    -Infinity
+  ],
+  "857": [
+    -9.9296875,
+    -11.9296875,
+    -13.15625,
+    -12.9140625
+  ],
+  "858": [
+    -Infinity,
+    -Infinity,
+    -1.0478515625,
+    -4.29296875
+  ],
+  "859": [
+    -1.12890625,
+    -Infinity,
+    -Infinity,
+    -14.234375
+  ],
+  "860": [
+    -9.7109375,
+    -8.9375,
+    -Infinity,
+    -6.70703125
+  ],
+  "861": [
+    -19.734375,
+    -8.984375,
+    -Infinity,
+    -Infinity
+  ],
+  "862": [
+    -Infinity,
+    -7.41015625,
+    -14.6875,
+    -10.8671875
+  ],
+  "863": [
+    -8.4140625,
+    -7.52734375,
+    -10.9609375,
+    -8.3515625
+  ],
+  "864": [
+    -Infinity,
+    -Infinity,
+    -17.8125,
+    -13.28125
+  ],
+  "865": [
+    -7.0546875,
+    -2.677734375,
+    -Infinity,
+    -Infinity
+  ],
+  "866": [
+    -Infinity,
+    -9.71875,
+    -10.59375,
+    -9.2109375
+  ],
+  "867": [
+    -8.0546875,
+    -Infinity,
+    -Infinity,
+    -11.5078125
+  ],
+  "868": [
+    -7.44140625,
+    -8.4453125,
+    -Infinity,
+    -5.7265625
+  ],
+  "869": [
+    -5.5625,
+    -7.8046875,
+    -9.0,
+    -Infinity
+  ],
+  "870": [
+    -Infinity,
+    -9.296875,
+    -Infinity,
+    -Infinity
+  ],
+  "871": [
+    -20.84375,
+    -Infinity,
+    -Infinity,
+    -20.234375
+  ],
+  "872": [
+    -13.578125,
+    -12.0,
+    -Infinity,
+    -13.859375
+  ],
+  "873": [
+    -1.78515625,
+    -2.578125,
+    -3.29296875,
+    -2.72265625
+  ],
+  "874": [
+    -18.515625,
+    -28.875,
+    -11.0390625,
+    -12.96875
+  ],
+  "875": [
+    -Infinity,
+    -14.1015625,
+    -16.34375,
+    -Infinity
+  ],
+  "876": [
+    -9.5859375,
+    -Infinity,
+    -Infinity,
+    -9.265625
+  ],
+  "877": [
+    -10.8515625,
+    -11.75,
+    -10.6328125,
+    -9.03125
+  ],
+  "878": [
+    -19.390625,
+    -Infinity,
+    -Infinity,
+    -13.1875
+  ],
+  "879": [
+    -8.0546875,
+    -11.625,
+    -10.765625,
+    -8.9375
+  ],
+  "880": [
+    -18.578125,
+    -Infinity,
+    -8.8984375,
+    -8.53125
+  ],
+  "881": [
+    -6.6015625,
+    -11.2109375,
+    -2.509765625,
+    -5.0078125
+  ],
+  "882": [
+    -11.234375,
+    -24.0,
+    -13.7578125,
+    -10.953125
+  ],
+  "883": [
+    -10.5625,
+    -11.25,
+    -10.5390625,
+    -7.90625
+  ],
+  "884": [
+    -8.75,
+    -16.78125,
+    -11.046875,
+    -10.5078125
+  ],
+  "885": [
+    -21.03125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "886": [
+    -4.3671875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "887": [
+    -17.453125,
+    -Infinity,
+    -15.515625,
+    -Infinity
+  ],
+  "888": [
+    -Infinity,
+    -9.2578125,
+    -6.1875,
+    -6.0078125
+  ],
+  "889": [
+    -Infinity,
+    -16.40625,
+    -Infinity,
+    -14.671875
+  ],
+  "890": [
+    -20.0625,
+    -Infinity,
+    -8.8515625,
+    -Infinity
+  ],
+  "891": [
+    -14.2578125,
+    -Infinity,
+    -Infinity,
+    -11.015625
+  ],
+  "892": [
+    -14.7578125,
+    -Infinity,
+    -5.4296875,
+    -3.87890625
+  ],
+  "893": [
+    -Infinity,
+    -12.15625,
+    -Infinity,
+    -12.703125
+  ],
+  "894": [
+    -12.515625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "895": [
+    -14.2265625,
+    -15.171875,
+    -18.71875,
+    -15.8125
+  ],
+  "896": [
+    -Infinity,
+    -10.6171875,
+    -9.453125,
+    -7.43359375
+  ],
+  "897": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "898": [
+    -Infinity,
+    -Infinity,
+    -14.125,
+    -Infinity
+  ],
+  "899": [
+    -11.3984375,
+    -8.71875,
+    -9.2421875,
+    -5.74609375
+  ],
+  "900": [
+    -Infinity,
+    -Infinity,
+    -14.328125,
+    -9.75
+  ],
+  "901": [
+    -Infinity,
+    -17.546875,
+    -Infinity,
+    -Infinity
+  ],
+  "902": [
+    -11.09375,
+    -11.953125,
+    -16.15625,
+    -Infinity
+  ],
+  "903": [
+    -6.65234375,
+    -Infinity,
+    -Infinity,
+    -8.1640625
+  ],
+  "904": [
+    -9.234375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "905": [
+    -14.0,
+    -Infinity,
+    -Infinity,
+    -12.109375
+  ],
+  "906": [
+    -13.5703125,
+    -6.3125,
+    -Infinity,
+    -Infinity
+  ],
+  "907": [
+    -Infinity,
+    -Infinity,
+    -10.71875,
+    -11.9921875
+  ],
+  "908": [
+    -10.75,
+    -19.734375,
+    -16.625,
+    -20.375
+  ],
+  "909": [
+    -Infinity,
+    -Infinity,
+    -10.5,
+    -8.90625
+  ],
+  "910": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -13.15625
+  ],
+  "911": [
+    -Infinity,
+    -12.0234375,
+    -16.484375,
+    -Infinity
+  ],
+  "912": [
+    -Infinity,
+    -16.515625,
+    -11.6796875,
+    -10.3671875
+  ],
+  "913": [
+    -18.859375,
+    -Infinity,
+    -6.375,
+    -Infinity
+  ],
+  "914": [
+    -Infinity,
+    -Infinity,
+    -17.90625,
+    -7.5390625
+  ],
+  "915": [
+    -7.06640625,
+    -3.310546875,
+    -2.31640625,
+    -1.728515625
+  ],
+  "916": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -15.109375
+  ],
+  "917": [
+    -Infinity,
+    -4.140625,
+    -Infinity,
+    -Infinity
+  ],
+  "918": [
+    -15.1875,
+    -16.4375,
+    -14.9921875,
+    -Infinity
+  ],
+  "919": [
+    -13.2109375,
+    -10.390625,
+    -2.966796875,
+    -Infinity
+  ],
+  "920": [
+    -13.6015625,
+    -Infinity,
+    -27.8125,
+    -Infinity
+  ],
+  "921": [
+    -0.93505859375,
+    -5.4296875,
+    -1.25,
+    -1.72265625
+  ],
+  "922": [
+    -3.23828125,
+    -2.568359375,
+    -Infinity,
+    -16.40625
+  ],
+  "923": [
+    -11.2265625,
+    -19.59375,
+    -10.6328125,
+    -15.7890625
+  ],
+  "924": [
+    -14.8359375,
+    -Infinity,
+    -6.69140625,
+    -Infinity
+  ],
+  "925": [
+    -Infinity,
+    -17.21875,
+    -Infinity,
+    -Infinity
+  ],
+  "926": [
+    -10.171875,
+    -26.78125,
+    -Infinity,
+    -17.078125
+  ],
+  "927": [
+    -13.2265625,
+    -21.390625,
+    -5.3203125,
+    -5.3671875
+  ],
+  "928": [
+    -13.5859375,
+    -11.640625,
+    -12.1015625,
+    -12.8671875
+  ],
+  "929": [
+    -8.359375,
+    -10.796875,
+    -7.12109375,
+    -14.0859375
+  ],
+  "930": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "931": [
+    -17.90625,
+    -Infinity,
+    -Infinity,
+    -13.3125
+  ],
+  "932": [
+    -25.03125,
+    -5.12890625,
+    -31.046875,
+    -Infinity
+  ],
+  "933": [
+    -14.546875,
+    -Infinity,
+    -4.65625,
+    -9.421875
+  ],
+  "934": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "935": [
+    -15.625,
+    -10.96875,
+    -Infinity,
+    -Infinity
+  ],
+  "936": [
+    -Infinity,
+    -17.234375,
+    -Infinity,
+    -7.93359375
+  ],
+  "937": [
+    -5.90234375,
+    -7.4375,
+    -5.32421875,
+    -4.6953125
+  ],
+  "938": [
+    -2.521484375,
+    -7.44921875,
+    -2.435546875,
+    -7.6171875
+  ],
+  "939": [
+    -8.8515625,
+    -11.765625,
+    -Infinity,
+    -8.4921875
+  ],
+  "940": [
+    -24.75,
+    -Infinity,
+    -14.0078125,
+    -19.25
+  ],
+  "941": [
+    -16.34375,
+    -Infinity,
+    -14.859375,
+    -18.890625
+  ],
+  "942": [
+    -13.7890625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "943": [
+    -7.671875,
+    -2.193359375,
+    -2.5390625,
+    -4.72265625
+  ],
+  "944": [
+    -16.328125,
+    -12.328125,
+    -17.09375,
+    -14.75
+  ],
+  "945": [
+    -7.47265625,
+    -8.6328125,
+    -7.796875,
+    -9.15625
+  ],
+  "946": [
+    -8.171875,
+    -Infinity,
+    -4.8359375,
+    -10.546875
+  ],
+  "947": [
+    -12.9921875,
+    -17.65625,
+    -17.203125,
+    -Infinity
+  ],
+  "948": [
+    -5.1328125,
+    -Infinity,
+    -6.26171875,
+    -5.66015625
+  ],
+  "949": [
+    -Infinity,
+    -19.953125,
+    -18.6875,
+    -17.125
+  ],
+  "950": [
+    -9.5234375,
+    -Infinity,
+    -9.7890625,
+    -Infinity
+  ],
+  "951": [
+    -14.1328125,
+    -9.7109375,
+    -14.0625,
+    -15.796875
+  ],
+  "952": [
+    -5.04296875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "953": [
+    -9.8046875,
+    -8.7734375,
+    -Infinity,
+    -9.8125
+  ],
+  "954": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "955": [
+    -14.6015625,
+    -10.265625,
+    -13.765625,
+    -13.703125
+  ],
+  "956": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -1.3193359375
+  ],
+  "957": [
+    -Infinity,
+    -10.671875,
+    -12.140625,
+    -10.671875
+  ],
+  "958": [
+    -5.43359375,
+    -10.3828125,
+    -Infinity,
+    -Infinity
+  ],
+  "959": [
+    -Infinity,
+    -7.05078125,
+    -Infinity,
+    -Infinity
+  ],
+  "960": [
+    -16.90625,
+    -Infinity,
+    -13.0078125,
+    -6.796875
+  ],
+  "961": [
+    -15.2265625,
+    -13.03125,
+    -6.9375,
+    -8.6171875
+  ],
+  "962": [
+    -5.07421875,
+    -Infinity,
+    -13.484375,
+    -Infinity
+  ],
+  "963": [
+    -0.98876953125,
+    -1.0478515625,
+    -9.2421875,
+    -10.390625
+  ],
+  "964": [
+    -2.318359375,
+    -7.0078125,
+    -0.6669921875,
+    -Infinity
+  ],
+  "965": [
+    -10.2734375,
+    -Infinity,
+    -12.0625,
+    -9.9765625
+  ],
+  "966": [
+    -18.34375,
+    -10.96875,
+    -Infinity,
+    -13.0546875
+  ],
+  "967": [
+    -0.123291015625,
+    -2.26171875,
+    -2.857421875,
+    -8.359375
+  ],
+  "968": [
+    -Infinity,
+    -20.171875,
+    -13.3515625,
+    -9.7734375
+  ],
+  "969": [
+    -11.09375,
+    -20.828125,
+    -Infinity,
+    -Infinity
+  ],
+  "970": [
+    -8.640625,
+    -5.4375,
+    -Infinity,
+    -7.05859375
+  ],
+  "971": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -9.46875
+  ],
+  "972": [
+    -1.009765625,
+    -Infinity,
+    -10.6640625,
+    -12.0
+  ],
+  "973": [
+    -12.75,
+    -10.96875,
+    -Infinity,
+    -Infinity
+  ],
+  "974": [
+    -Infinity,
+    -7.7265625,
+    -Infinity,
+    -Infinity
+  ],
+  "975": [
+    -1.197265625,
+    -16.828125,
+    -6.828125,
+    -9.09375
+  ],
+  "976": [
+    -Infinity,
+    -7.4921875,
+    -7.7890625,
+    -Infinity
+  ],
+  "977": [
+    -16.5625,
+    -15.4609375,
+    -11.21875,
+    -Infinity
+  ],
+  "978": [
+    -1.197265625,
+    -0.42138671875,
+    -1.859375,
+    -6.7109375
+  ],
+  "979": [
+    -16.75,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "980": [
+    -5.03125,
+    -1.21875,
+    -13.25,
+    -Infinity
+  ],
+  "981": [
+    -Infinity,
+    -5.4609375,
+    -Infinity,
+    -4.59765625
+  ],
+  "982": [
+    -17.140625,
+    -16.53125,
+    -19.75,
+    -17.171875
+  ],
+  "983": [
+    -Infinity,
+    -8.78125,
+    -Infinity,
+    -13.0625
+  ],
+  "984": [
+    -0.475341796875,
+    -1.853515625,
+    -1.4130859375,
+    -2.953125
+  ],
+  "985": [
+    -Infinity,
+    -Infinity,
+    -20.515625,
+    -Infinity
+  ],
+  "986": [
+    -1.5283203125,
+    -Infinity,
+    -10.0078125,
+    -5.38671875
+  ],
+  "987": [
+    -8.359375,
+    -22.828125,
+    -9.7890625,
+    -Infinity
+  ],
+  "988": [
+    -8.984375,
+    -20.515625,
+    -13.1328125,
+    -9.1484375
+  ],
+  "989": [
+    -14.046875,
+    -14.1015625,
+    -Infinity,
+    -Infinity
+  ],
+  "990": [
+    -9.0625,
+    -1.6396484375,
+    -9.625,
+    -1.7197265625
+  ],
+  "991": [
+    -14.828125,
+    -9.625,
+    -Infinity,
+    -10.390625
+  ],
+  "992": [
+    -20.296875,
+    -21.046875,
+    -11.078125,
+    -15.0546875
+  ],
+  "993": [
+    -Infinity,
+    -11.1953125,
+    -Infinity,
+    -18.078125
+  ],
+  "994": [
+    -17.953125,
+    -11.6796875,
+    -Infinity,
+    -Infinity
+  ],
+  "995": [
+    -14.28125,
+    -17.140625,
+    -Infinity,
+    -Infinity
+  ],
+  "996": [
+    -Infinity,
+    -Infinity,
+    -10.15625,
+    -17.765625
+  ],
+  "997": [
+    -28.984375,
+    -Infinity,
+    -6.88671875,
+    -21.953125
+  ],
+  "998": [
+    -Infinity,
+    -6.6796875,
+    -8.0390625,
+    -6.59765625
+  ],
+  "999": [
+    -2.498046875,
+    -3.546875,
+    -4.71484375,
+    -1.0009765625
+  ],
+  "1000": [
+    -4.96875,
+    -5.80078125,
+    -2.37890625,
+    -5.11328125
+  ],
+  "1001": [
+    -6.33984375,
+    -9.6484375,
+    -8.8125,
+    -10.4765625
+  ],
+  "1002": [
+    -17.421875,
+    -6.78125,
+    -15.5078125,
+    -14.78125
+  ],
+  "1003": [
+    -Infinity,
+    -10.1171875,
+    -7.61328125,
+    -Infinity
+  ],
+  "1004": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1005": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -21.078125
+  ],
+  "1006": [
+    -10.8359375,
+    -Infinity,
+    -8.890625,
+    -12.765625
+  ],
+  "1007": [
+    -8.0,
+    -21.0,
+    -5.1171875,
+    -5.52734375
+  ],
+  "1008": [
+    -Infinity,
+    -15.859375,
+    -15.7421875,
+    -6.66015625
+  ],
+  "1009": [
+    -9.3203125,
+    -7.94140625,
+    -Infinity,
+    -10.4921875
+  ],
+  "1010": [
+    -Infinity,
+    -12.5234375,
+    -10.2734375,
+    -Infinity
+  ],
+  "1011": [
+    -13.0,
+    -Infinity,
+    -15.2890625,
+    -16.84375
+  ],
+  "1012": [
+    -8.625,
+    -11.2890625,
+    -8.1875,
+    -7.5703125
+  ],
+  "1013": [
+    -Infinity,
+    -Infinity,
+    -2.78515625,
+    -Infinity
+  ],
+  "1014": [
+    -1.3349609375,
+    -2.42578125,
+    -1.388671875,
+    -2.322265625
+  ],
+  "1015": [
+    -11.234375,
+    -2.7421875,
+    -3.4296875,
+    -5.96484375
+  ],
+  "1016": [
+    -8.6640625,
+    -10.8125,
+    -Infinity,
+    -Infinity
+  ],
+  "1017": [
+    -18.84375,
+    -Infinity,
+    -15.4140625,
+    -19.640625
+  ],
+  "1018": [
+    -Infinity,
+    -3.322265625,
+    -Infinity,
+    -Infinity
+  ],
+  "1019": [
+    -10.03125,
+    -8.625,
+    -13.2890625,
+    -11.9296875
+  ],
+  "1020": [
+    -Infinity,
+    -10.890625,
+    -Infinity,
+    -Infinity
+  ],
+  "1021": [
+    -7.55859375,
+    -6.74609375,
+    -6.1171875,
+    -9.34375
+  ],
+  "1022": [
+    -8.03125,
+    -Infinity,
+    -5.15625,
+    -6.36328125
+  ],
+  "1023": [
+    -12.3984375,
+    -Infinity,
+    -8.625,
+    -18.125
+  ],
+  "1024": [
+    -12.0078125,
+    -3.587890625,
+    -4.1953125,
+    -Infinity
+  ],
+  "1025": [
+    -Infinity,
+    -11.7265625,
+    -2.134765625,
+    -1.52734375
+  ],
+  "1026": [
+    -Infinity,
+    -16.28125,
+    -Infinity,
+    -13.7890625
+  ],
+  "1027": [
+    -0.6357421875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1028": [
+    -1.0751953125,
+    -1.3818359375,
+    -2.123046875,
+    -2.2109375
+  ],
+  "1029": [
+    -1.1328125,
+    -10.34375,
+    -8.7578125,
+    -5.7890625
+  ],
+  "1030": [
+    -Infinity,
+    -14.6640625,
+    -Infinity,
+    -15.6953125
+  ],
+  "1031": [
+    -33.28125,
+    -12.703125,
+    -Infinity,
+    -Infinity
+  ],
+  "1032": [
+    -Infinity,
+    -14.2578125,
+    -6.07421875,
+    -11.234375
+  ],
+  "1033": [
+    -10.5703125,
+    -11.6171875,
+    -11.5703125,
+    -7.1796875
+  ],
+  "1034": [
+    -Infinity,
+    -19.796875,
+    -Infinity,
+    -Infinity
+  ],
+  "1035": [
+    -12.5703125,
+    -13.7578125,
+    -Infinity,
+    -16.296875
+  ],
+  "1036": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1037": [
+    -9.0390625,
+    -11.671875,
+    -8.4765625,
+    -10.296875
+  ],
+  "1038": [
+    -Infinity,
+    -11.0625,
+    -7.09375,
+    -11.4453125
+  ],
+  "1039": [
+    -Infinity,
+    -14.96875,
+    -4.796875,
+    -8.7578125
+  ],
+  "1040": [
+    -2.07421875,
+    -0.93505859375,
+    -Infinity,
+    -2.9296875
+  ],
+  "1041": [
+    -32.28125,
+    -Infinity,
+    -Infinity,
+    -10.2109375
+  ],
+  "1042": [
+    -5.8046875,
+    -9.0703125,
+    -Infinity,
+    -5.83203125
+  ],
+  "1043": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1044": [
+    -Infinity,
+    -16.84375,
+    -16.6875,
+    -Infinity
+  ],
+  "1045": [
+    -Infinity,
+    -13.1953125,
+    -10.9453125,
+    -Infinity
+  ],
+  "1046": [
+    -Infinity,
+    -10.4296875,
+    -12.6875,
+    -10.4296875
+  ],
+  "1047": [
+    -Infinity,
+    -Infinity,
+    -9.90625,
+    -7.98046875
+  ],
+  "1048": [
+    -4.27734375,
+    -1.1796875,
+    -2.150390625,
+    -1.9833984375
+  ],
+  "1049": [
+    -6.3984375,
+    -8.015625,
+    -10.1328125,
+    -Infinity
+  ],
+  "1050": [
+    -13.84375,
+    -19.25,
+    -10.5546875,
+    -8.2578125
+  ],
+  "1051": [
+    -Infinity,
+    -Infinity,
+    -18.109375,
+    -Infinity
+  ],
+  "1052": [
+    -Infinity,
+    -6.8984375,
+    -Infinity,
+    -Infinity
+  ],
+  "1053": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1054": [
+    -21.046875,
+    -15.609375,
+    -Infinity,
+    -Infinity
+  ],
+  "1055": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -7.4765625
+  ],
+  "1056": [
+    -13.2265625,
+    -Infinity,
+    -21.671875,
+    -Infinity
+  ],
+  "1057": [
+    -4.41015625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1058": [
+    -0.22900390625,
+    -3.8203125,
+    -0.5400390625,
+    -7.01171875
+  ],
+  "1059": [
+    -Infinity,
+    -1.6064453125,
+    -4.40625,
+    -9.84375
+  ],
+  "1060": [
+    -9.1015625,
+    -Infinity,
+    -Infinity,
+    -10.015625
+  ],
+  "1061": [
+    -13.9375,
+    -14.046875,
+    -Infinity,
+    -Infinity
+  ],
+  "1062": [
+    -Infinity,
+    -21.359375,
+    -18.609375,
+    -17.0625
+  ],
+  "1063": [
+    -Infinity,
+    -8.8984375,
+    -10.703125,
+    -16.796875
+  ],
+  "1064": [
+    -Infinity,
+    -13.8984375,
+    -Infinity,
+    -Infinity
+  ],
+  "1065": [
+    -Infinity,
+    -6.44921875,
+    -Infinity,
+    -Infinity
+  ],
+  "1066": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -3.197265625
+  ],
+  "1067": [
+    -16.671875,
+    -Infinity,
+    -13.390625,
+    -12.0703125
+  ],
+  "1068": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1069": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -13.3125
+  ],
+  "1070": [
+    -Infinity,
+    -25.984375,
+    -8.890625,
+    -Infinity
+  ],
+  "1071": [
+    -9.4375,
+    -Infinity,
+    -9.8359375,
+    -20.515625
+  ],
+  "1072": [
+    -8.3203125,
+    -8.8125,
+    -Infinity,
+    -9.2109375
+  ],
+  "1073": [
+    -5.16796875,
+    -8.2265625,
+    -4.89453125,
+    -13.7890625
+  ],
+  "1074": [
+    -Infinity,
+    -13.6484375,
+    -4.1640625,
+    -15.328125
+  ],
+  "1075": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1076": [
+    -7.80078125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1077": [
+    -13.609375,
+    -9.6484375,
+    -12.6171875,
+    -9.5
+  ],
+  "1078": [
+    -9.1953125,
+    -Infinity,
+    -Infinity,
+    -15.328125
+  ],
+  "1079": [
+    -1.197265625,
+    -5.4765625,
+    -Infinity,
+    -Infinity
+  ],
+  "1080": [
+    -Infinity,
+    -4.265625,
+    -11.0625,
+    -Infinity
+  ],
+  "1081": [
+    -Infinity,
+    -8.0390625,
+    -Infinity,
+    -27.5
+  ],
+  "1082": [
+    -8.15625,
+    -10.1171875,
+    -10.2734375,
+    -Infinity
+  ],
+  "1083": [
+    -13.65625,
+    -8.890625,
+    -14.453125,
+    -15.046875
+  ],
+  "1084": [
+    -24.109375,
+    -10.3671875,
+    -11.75,
+    -Infinity
+  ],
+  "1085": [
+    -17.796875,
+    -16.5,
+    -14.3203125,
+    -21.09375
+  ],
+  "1086": [
+    -Infinity,
+    -1.0576171875,
+    -Infinity,
+    -11.8125
+  ],
+  "1087": [
+    -8.4140625,
+    -7.21875,
+    -8.3671875,
+    -8.765625
+  ],
+  "1088": [
+    -30.0625,
+    -10.0859375,
+    -Infinity,
+    -11.78125
+  ],
+  "1089": [
+    -0.390625,
+    -4.0703125,
+    -1.1689453125,
+    -5.89453125
+  ],
+  "1090": [
+    -10.2421875,
+    -8.6484375,
+    -Infinity,
+    -Infinity
+  ],
+  "1091": [
+    -Infinity,
+    -9.8203125,
+    -7.19921875,
+    -6.57421875
+  ],
+  "1092": [
+    -10.5390625,
+    -Infinity,
+    -24.34375,
+    -Infinity
+  ],
+  "1093": [
+    -4.2890625,
+    -10.6171875,
+    -Infinity,
+    -Infinity
+  ],
+  "1094": [
+    -Infinity,
+    -9.4140625,
+    -8.484375,
+    -5.42578125
+  ],
+  "1095": [
+    -14.359375,
+    -5.0390625,
+    -13.359375,
+    -14.625
+  ],
+  "1096": [
+    -Infinity,
+    -12.1875,
+    -Infinity,
+    -13.75
+  ],
+  "1097": [
+    -3.693359375,
+    -7.421875,
+    -24.203125,
+    -5.28515625
+  ],
+  "1098": [
+    -15.9765625,
+    -Infinity,
+    -18.34375,
+    -Infinity
+  ],
+  "1099": [
+    -3.87109375,
+    -4.3125,
+    -Infinity,
+    -8.7265625
+  ],
+  "1100": [
+    -15.265625,
+    -1.9970703125,
+    -3.2265625,
+    -Infinity
+  ],
+  "1101": [
+    -8.96875,
+    -14.59375,
+    -12.953125,
+    -Infinity
+  ],
+  "1102": [
+    -Infinity,
+    -8.703125,
+    -Infinity,
+    -5.26171875
+  ],
+  "1103": [
+    -22.640625,
+    -5.55078125,
+    -Infinity,
+    -9.1796875
+  ],
+  "1104": [
+    -Infinity,
+    -Infinity,
+    -1.2099609375,
+    -1.716796875
+  ],
+  "1105": [
+    -Infinity,
+    -6.08984375,
+    -Infinity,
+    -5.75
+  ],
+  "1106": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.19140625
+  ],
+  "1107": [
+    -12.2421875,
+    -Infinity,
+    -17.59375,
+    -Infinity
+  ],
+  "1108": [
+    -18.859375,
+    -13.9375,
+    -9.9765625,
+    -11.171875
+  ],
+  "1109": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -14.703125
+  ],
+  "1110": [
+    -7.26171875,
+    -12.8515625,
+    -11.2421875,
+    -Infinity
+  ],
+  "1111": [
+    -12.4609375,
+    -Infinity,
+    -Infinity,
+    -20.1875
+  ],
+  "1112": [
+    -6.84375,
+    -Infinity,
+    -25.734375,
+    -8.109375
+  ],
+  "1113": [
+    -10.890625,
+    -9.5078125,
+    -Infinity,
+    -11.5234375
+  ],
+  "1114": [
+    -Infinity,
+    -8.3125,
+    -4.40625,
+    -Infinity
+  ],
+  "1115": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1116": [
+    -8.2421875,
+    -10.34375,
+    -22.78125,
+    -11.1484375
+  ],
+  "1117": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1118": [
+    -14.5078125,
+    -12.484375,
+    -11.7578125,
+    -11.734375
+  ],
+  "1119": [
+    -27.390625,
+    -10.0078125,
+    -Infinity,
+    -Infinity
+  ],
+  "1120": [
+    -12.9765625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1121": [
+    -10.5078125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1122": [
+    -Infinity,
+    -10.0859375,
+    -Infinity,
+    -Infinity
+  ],
+  "1123": [
+    -16.921875,
+    -14.359375,
+    -Infinity,
+    -11.4140625
+  ],
+  "1124": [
+    -15.71875,
+    -Infinity,
+    -22.59375,
+    -17.9375
+  ],
+  "1125": [
+    -1.6435546875,
+    -3.126953125,
+    -2.052734375,
+    -1.7685546875
+  ],
+  "1126": [
+    -Infinity,
+    -6.45703125,
+    -Infinity,
+    -5.015625
+  ],
+  "1127": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -5.0390625
+  ],
+  "1128": [
+    -13.8046875,
+    -Infinity,
+    -Infinity,
+    -10.6875
+  ],
+  "1129": [
+    -7.56640625,
+    -15.7265625,
+    -8.2265625,
+    -Infinity
+  ],
+  "1130": [
+    -8.890625,
+    -5.93359375,
+    -8.25,
+    -6.81640625
+  ],
+  "1131": [
+    -6.59375,
+    -9.3359375,
+    -Infinity,
+    -Infinity
+  ],
+  "1132": [
+    -13.09375,
+    -11.5390625,
+    -12.796875,
+    -7.1328125
+  ],
+  "1133": [
+    -9.53125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1134": [
+    -10.3125,
+    -11.6875,
+    -Infinity,
+    -Infinity
+  ],
+  "1135": [
+    -Infinity,
+    -7.4921875,
+    -14.421875,
+    -Infinity
+  ],
+  "1136": [
+    -Infinity,
+    -Infinity,
+    -4.92578125,
+    -3.5234375
+  ],
+  "1137": [
+    -4.64453125,
+    -8.078125,
+    -3.8671875,
+    -3.615234375
+  ],
+  "1138": [
+    -13.0078125,
+    -8.9921875,
+    -9.015625,
+    -11.2265625
+  ],
+  "1139": [
+    -11.7734375,
+    -9.3046875,
+    -4.8203125,
+    -16.96875
+  ],
+  "1140": [
+    -19.953125,
+    -18.21875,
+    -9.96875,
+    -20.171875
+  ],
+  "1141": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1142": [
+    -Infinity,
+    -11.171875,
+    -16.28125,
+    -14.0703125
+  ],
+  "1143": [
+    -Infinity,
+    -26.3125,
+    -Infinity,
+    -15.5234375
+  ],
+  "1144": [
+    -Infinity,
+    -Infinity,
+    -8.046875,
+    -Infinity
+  ],
+  "1145": [
+    -18.703125,
+    -9.5390625,
+    -13.140625,
+    -12.875
+  ],
+  "1146": [
+    -Infinity,
+    -18.796875,
+    -18.96875,
+    -19.125
+  ],
+  "1147": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1148": [
+    -Infinity,
+    -13.4453125,
+    -12.125,
+    -Infinity
+  ],
+  "1149": [
+    -Infinity,
+    -7.22265625,
+    -Infinity,
+    -6.0625
+  ],
+  "1150": [
+    -Infinity,
+    -6.78515625,
+    -14.375,
+    -Infinity
+  ],
+  "1151": [
+    -8.3125,
+    -8.578125,
+    -9.2734375,
+    -5.01171875
+  ],
+  "1152": [
+    -9.984375,
+    -4.0703125,
+    -2.013671875,
+    -Infinity
+  ],
+  "1153": [
+    -10.734375,
+    -Infinity,
+    -15.90625,
+    -15.59375
+  ],
+  "1154": [
+    -3.46484375,
+    -4.5703125,
+    -12.3671875,
+    -Infinity
+  ],
+  "1155": [
+    -6.4609375,
+    -18.234375,
+    -3.375,
+    -12.75
+  ],
+  "1156": [
+    -7.04296875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1157": [
+    -Infinity,
+    -17.34375,
+    -Infinity,
+    -8.953125
+  ],
+  "1158": [
+    -18.546875,
+    -Infinity,
+    -12.546875,
+    -13.0546875
+  ],
+  "1159": [
+    -13.046875,
+    -Infinity,
+    -10.375,
+    -Infinity
+  ],
+  "1160": [
+    -5.21875,
+    -2.19921875,
+    -0.84814453125,
+    -7.671875
+  ],
+  "1161": [
+    -Infinity,
+    -8.6796875,
+    -6.94140625,
+    -7.359375
+  ],
+  "1162": [
+    -14.625,
+    -4.23828125,
+    -Infinity,
+    -6.9453125
+  ],
+  "1163": [
+    -19.3125,
+    -Infinity,
+    -11.625,
+    -Infinity
+  ],
+  "1164": [
+    -Infinity,
+    -16.5,
+    -15.6953125,
+    -Infinity
+  ],
+  "1165": [
+    -27.140625,
+    -9.5390625,
+    -6.94140625,
+    -7.23046875
+  ],
+  "1166": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1167": [
+    -Infinity,
+    -Infinity,
+    -9.7890625,
+    -10.0546875
+  ],
+  "1168": [
+    -15.984375,
+    -12.2890625,
+    -10.2578125,
+    -11.9140625
+  ],
+  "1169": [
+    -5.70703125,
+    -1.490234375,
+    -Infinity,
+    -1.6689453125
+  ],
+  "1170": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1171": [
+    -20.390625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1172": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1173": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1174": [
+    -Infinity,
+    -29.03125,
+    -14.7890625,
+    -Infinity
+  ],
+  "1175": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1176": [
+    -Infinity,
+    -Infinity,
+    -30.59375,
+    -Infinity
+  ],
+  "1177": [
+    -12.1796875,
+    -Infinity,
+    -27.671875,
+    -17.890625
+  ],
+  "1178": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1179": [
+    -Infinity,
+    -21.3125,
+    -Infinity,
+    -Infinity
+  ],
+  "1180": [
+    -Infinity,
+    -Infinity,
+    -19.546875,
+    -Infinity
+  ],
+  "1181": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -36.625
+  ],
+  "1182": [
+    -Infinity,
+    -16.578125,
+    -Infinity,
+    -Infinity
+  ],
+  "1183": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1184": [
+    -Infinity,
+    -Infinity,
+    -21.046875,
+    -Infinity
+  ],
+  "1185": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1186": [
+    -10.6171875,
+    -9.484375,
+    -12.484375,
+    -6.8125
+  ],
+  "1187": [
+    -Infinity,
+    -18.03125,
+    -Infinity,
+    -24.015625
+  ],
+  "1188": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1189": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1190": [
+    -Infinity,
+    -18.4375,
+    -46.9375,
+    -Infinity
+  ],
+  "1191": [
+    -Infinity,
+    -28.90625,
+    -Infinity,
+    -Infinity
+  ],
+  "1192": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1193": [
+    -16.5625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1194": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1195": [
+    -Infinity,
+    -12.296875,
+    -Infinity,
+    -Infinity
+  ],
+  "1196": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1197": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1198": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1199": [
+    -44.78125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1200": [
+    -16.09375,
+    -37.65625,
+    -Infinity,
+    -Infinity
+  ],
+  "1201": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1202": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1203": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1204": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1205": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -20.71875
+  ],
+  "1206": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1207": [
+    -Infinity,
+    -26.0,
+    -23.859375,
+    -Infinity
+  ],
+  "1208": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1209": [
+    -28.234375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1210": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1211": [
+    -16.09375,
+    -7.140625,
+    -Infinity,
+    -Infinity
+  ],
+  "1212": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -16.921875
+  ],
+  "1213": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1214": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -25.15625
+  ],
+  "1215": [
+    -Infinity,
+    -Infinity,
+    -17.703125,
+    -Infinity
+  ],
+  "1216": [
+    -Infinity,
+    -8.7578125,
+    -Infinity,
+    -Infinity
+  ],
+  "1217": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1218": [
+    -19.765625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1219": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1220": [
+    -6.8515625,
+    -30.0625,
+    -Infinity,
+    -43.0
+  ],
+  "1221": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1222": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1223": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1224": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1225": [
+    -Infinity,
+    -31.8125,
+    -Infinity,
+    -Infinity
+  ],
+  "1226": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1227": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1228": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1229": [
+    -Infinity,
+    -Infinity,
+    -25.171875,
+    -Infinity
+  ],
+  "1230": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1231": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1232": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1233": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1234": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1235": [
+    -28.359375,
+    -28.484375,
+    -Infinity,
+    -Infinity
+  ],
+  "1236": [
+    -Infinity,
+    -9.140625,
+    -Infinity,
+    -10.96875
+  ],
+  "1237": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1238": [
+    -13.7109375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1239": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1240": [
+    -49.28125,
+    -Infinity,
+    -48.4375,
+    -Infinity
+  ],
+  "1241": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -38.0
+  ],
+  "1242": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1243": [
+    -Infinity,
+    -Infinity,
+    -56.125,
+    -Infinity
+  ],
+  "1244": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -20.25
+  ],
+  "1245": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1246": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -15.34375
+  ],
+  "1247": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -18.796875
+  ],
+  "1248": [
+    -Infinity,
+    -32.65625,
+    -Infinity,
+    -24.453125
+  ],
+  "1249": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1250": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -41.3125
+  ],
+  "1251": [
+    -Infinity,
+    -4.21875,
+    -Infinity,
+    -Infinity
+  ],
+  "1252": [
+    -Infinity,
+    -Infinity,
+    -9.3203125,
+    -10.90625
+  ],
+  "1253": [
+    -Infinity,
+    -Infinity,
+    -46.0625,
+    -18.203125
+  ],
+  "1254": [
+    -Infinity,
+    -Infinity,
+    -13.5546875,
+    -20.546875
+  ],
+  "1255": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1256": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1257": [
+    -38.78125,
+    -11.0546875,
+    -Infinity,
+    -Infinity
+  ],
+  "1258": [
+    -16.390625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1259": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1260": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1261": [
+    -Infinity,
+    -12.015625,
+    -Infinity,
+    -Infinity
+  ],
+  "1262": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -12.7109375
+  ],
+  "1263": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -10.4140625
+  ],
+  "1264": [
+    -6.859375,
+    -Infinity,
+    -Infinity,
+    -20.859375
+  ],
+  "1265": [
+    -Infinity,
+    -4.57421875,
+    -Infinity,
+    -Infinity
+  ],
+  "1266": [
+    -10.234375,
+    -15.2890625,
+    -7.4453125,
+    -Infinity
+  ],
+  "1267": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -28.921875
+  ],
+  "1268": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1269": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1270": [
+    -Infinity,
+    -11.3359375,
+    -9.0234375,
+    -Infinity
+  ],
+  "1271": [
+    -Infinity,
+    -10.5625,
+    -Infinity,
+    -Infinity
+  ],
+  "1272": [
+    -Infinity,
+    -16.671875,
+    -Infinity,
+    -Infinity
+  ],
+  "1273": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -22.28125
+  ],
+  "1274": [
+    -6.7421875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1275": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1276": [
+    -Infinity,
+    -24.125,
+    -Infinity,
+    -Infinity
+  ],
+  "1277": [
+    -Infinity,
+    -40.25,
+    -Infinity,
+    -Infinity
+  ],
+  "1278": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1279": [
+    -Infinity,
+    -16.90625,
+    -Infinity,
+    -Infinity
+  ],
+  "1280": [
+    -6.07421875,
+    -16.625,
+    -Infinity,
+    -1.701171875
+  ],
+  "1281": [
+    -11.1875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1282": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1283": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1284": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1285": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1286": [
+    -Infinity,
+    -34.0625,
+    -Infinity,
+    -18.890625
+  ],
+  "1287": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1288": [
+    -Infinity,
+    -Infinity,
+    -14.4453125,
+    -Infinity
+  ],
+  "1289": [
+    -30.515625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1290": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1291": [
+    -Infinity,
+    -16.625,
+    -Infinity,
+    -15.390625
+  ],
+  "1292": [
+    -25.578125,
+    -Infinity,
+    -Infinity,
+    -35.875
+  ],
+  "1293": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -13.859375
+  ],
+  "1294": [
+    -Infinity,
+    -Infinity,
+    -64.125,
+    -Infinity
+  ],
+  "1295": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1296": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -12.7890625
+  ],
+  "1297": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1298": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1299": [
+    -Infinity,
+    -20.0625,
+    -Infinity,
+    -Infinity
+  ],
+  "1300": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1301": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1302": [
+    -Infinity,
+    -Infinity,
+    -33.34375,
+    -21.625
+  ],
+  "1303": [
+    -28.265625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1304": [
+    -61.90625,
+    -Infinity,
+    -66.0,
+    -Infinity
+  ],
+  "1305": [
+    -10.7421875,
+    -Infinity,
+    -Infinity,
+    -8.0703125
+  ],
+  "1306": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -13.4296875
+  ],
+  "1307": [
+    -Infinity,
+    -28.953125,
+    -Infinity,
+    -Infinity
+  ],
+  "1308": [
+    -Infinity,
+    -27.03125,
+    -Infinity,
+    -Infinity
+  ],
+  "1309": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1310": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -31.21875
+  ],
+  "1311": [
+    -17.828125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1312": [
+    -7.671875,
+    -6.1015625,
+    -13.7421875,
+    -Infinity
+  ],
+  "1313": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1314": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1315": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1316": [
+    -Infinity,
+    -47.25,
+    -Infinity,
+    -42.71875
+  ],
+  "1317": [
+    -Infinity,
+    -45.0625,
+    -9.7265625,
+    -Infinity
+  ],
+  "1318": [
+    -Infinity,
+    -Infinity,
+    -10.9375,
+    -Infinity
+  ],
+  "1319": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1320": [
+    -10.78125,
+    -17.0,
+    -18.890625,
+    -10.359375
+  ],
+  "1321": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1322": [
+    -Infinity,
+    -Infinity,
+    -21.484375,
+    -19.734375
+  ],
+  "1323": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1324": [
+    -Infinity,
+    -16.078125,
+    -Infinity,
+    -Infinity
+  ],
+  "1325": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1326": [
+    -25.796875,
+    -11.40625,
+    -Infinity,
+    -15.0703125
+  ],
+  "1327": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1328": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1329": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1330": [
+    -Infinity,
+    -Infinity,
+    -32.25,
+    -Infinity
+  ],
+  "1331": [
+    -27.484375,
+    -Infinity,
+    -18.59375,
+    -Infinity
+  ],
+  "1332": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1333": [
+    -7.12890625,
+    -Infinity,
+    -14.75,
+    -Infinity
+  ],
+  "1334": [
+    -30.640625,
+    -Infinity,
+    -15.140625,
+    -Infinity
+  ],
+  "1335": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1336": [
+    -Infinity,
+    -Infinity,
+    -45.25,
+    -20.34375
+  ],
+  "1337": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -19.90625
+  ],
+  "1338": [
+    -Infinity,
+    -15.6875,
+    -Infinity,
+    -Infinity
+  ],
+  "1339": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1340": [
+    -9.234375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1341": [
+    -Infinity,
+    -15.0078125,
+    -21.5625,
+    -Infinity
+  ],
+  "1342": [
+    -20.234375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1343": [
+    -11.0625,
+    -16.359375,
+    -8.4609375,
+    -12.40625
+  ],
+  "1344": [
+    -Infinity,
+    -14.5,
+    -12.859375,
+    -34.3125
+  ],
+  "1345": [
+    -Infinity,
+    -Infinity,
+    -16.6875,
+    -6.8828125
+  ],
+  "1346": [
+    -Infinity,
+    -27.84375,
+    -10.421875,
+    -Infinity
+  ],
+  "1347": [
+    -23.234375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1348": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1349": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -19.015625
+  ],
+  "1350": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1351": [
+    -24.140625,
+    -Infinity,
+    -19.125,
+    -Infinity
+  ],
+  "1352": [
+    -Infinity,
+    -27.78125,
+    -Infinity,
+    -Infinity
+  ],
+  "1353": [
+    -Infinity,
+    -Infinity,
+    -11.4375,
+    -Infinity
+  ],
+  "1354": [
+    -6.15234375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1355": [
+    -14.859375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1356": [
+    -9.53125,
+    -16.4375,
+    -Infinity,
+    -Infinity
+  ],
+  "1357": [
+    -Infinity,
+    -13.609375,
+    -Infinity,
+    -Infinity
+  ],
+  "1358": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -14.6796875
+  ],
+  "1359": [
+    -Infinity,
+    -10.046875,
+    -14.109375,
+    -Infinity
+  ],
+  "1360": [
+    -Infinity,
+    -13.984375,
+    -Infinity,
+    -Infinity
+  ],
+  "1361": [
+    -Infinity,
+    -10.8125,
+    -6.9296875,
+    -17.234375
+  ],
+  "1362": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1363": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1364": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1365": [
+    -Infinity,
+    -57.75,
+    -Infinity,
+    -Infinity
+  ],
+  "1366": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1367": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1368": [
+    -Infinity,
+    -26.140625,
+    -Infinity,
+    -42.75
+  ],
+  "1369": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1370": [
+    -Infinity,
+    -12.125,
+    -Infinity,
+    -Infinity
+  ],
+  "1371": [
+    -Infinity,
+    -36.625,
+    -Infinity,
+    -Infinity
+  ],
+  "1372": [
+    -17.78125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1373": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -18.890625
+  ],
+  "1374": [
+    -46.84375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1375": [
+    -4.80859375,
+    -14.46875,
+    -Infinity,
+    -Infinity
+  ],
+  "1376": [
+    -Infinity,
+    -Infinity,
+    -11.140625,
+    -7.66796875
+  ],
+  "1377": [
+    -Infinity,
+    -8.34375,
+    -Infinity,
+    -Infinity
+  ],
+  "1378": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1379": [
+    -Infinity,
+    -Infinity,
+    -12.9609375,
+    -Infinity
+  ],
+  "1380": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1381": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1382": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1383": [
+    -Infinity,
+    -20.46875,
+    -Infinity,
+    -Infinity
+  ],
+  "1384": [
+    -Infinity,
+    -Infinity,
+    -18.421875,
+    -16.953125
+  ],
+  "1385": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1386": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1387": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1388": [
+    -Infinity,
+    -15.65625,
+    -Infinity,
+    -Infinity
+  ],
+  "1389": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1390": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1391": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1392": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1393": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1394": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1395": [
+    -17.953125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1396": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1397": [
+    -12.84375,
+    -Infinity,
+    -37.90625,
+    -Infinity
+  ],
+  "1398": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1399": [
+    -Infinity,
+    -Infinity,
+    -13.3984375,
+    -14.359375
+  ],
+  "1400": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1401": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1402": [
+    -5.66796875,
+    -Infinity,
+    -7.91796875,
+    -Infinity
+  ],
+  "1403": [
+    -21.375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1404": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1405": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1406": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1407": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1408": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1409": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1410": [
+    -Infinity,
+    -10.9921875,
+    -15.546875,
+    -8.25
+  ],
+  "1411": [
+    -Infinity,
+    -Infinity,
+    -28.609375,
+    -Infinity
+  ],
+  "1412": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1413": [
+    -Infinity,
+    -Infinity,
+    -17.703125,
+    -Infinity
+  ],
+  "1414": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -20.578125
+  ],
+  "1415": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1416": [
+    -7.83203125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1417": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1418": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1419": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1420": [
+    -19.328125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1421": [
+    -Infinity,
+    -Infinity,
+    -48.28125,
+    -Infinity
+  ],
+  "1422": [
+    -Infinity,
+    -16.59375,
+    -4.48046875,
+    -11.7578125
+  ],
+  "1423": [
+    -12.25,
+    -41.96875,
+    -19.890625,
+    -Infinity
+  ],
+  "1424": [
+    -Infinity,
+    -28.5625,
+    -Infinity,
+    -Infinity
+  ],
+  "1425": [
+    -Infinity,
+    -Infinity,
+    -41.0,
+    -12.9453125
+  ],
+  "1426": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1427": [
+    -18.015625,
+    -Infinity,
+    -16.09375,
+    -Infinity
+  ],
+  "1428": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1429": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1430": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1431": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1432": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1433": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1434": [
+    -Infinity,
+    -22.859375,
+    -Infinity,
+    -Infinity
+  ],
+  "1435": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -32.5
+  ],
+  "1436": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1437": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1438": [
+    -66.1875,
+    -Infinity,
+    -3.392578125,
+    -Infinity
+  ],
+  "1439": [
+    -14.4140625,
+    -Infinity,
+    -Infinity,
+    -0.53955078125
+  ],
+  "1440": [
+    -Infinity,
+    -0.34033203125,
+    -57.15625,
+    -Infinity
+  ],
+  "1441": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1442": [
+    -Infinity,
+    -57.125,
+    -Infinity,
+    -Infinity
+  ],
+  "1443": [
+    -Infinity,
+    -Infinity,
+    -8.1640625,
+    -Infinity
+  ],
+  "1444": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1445": [
+    -9.734375,
+    -Infinity,
+    -Infinity,
+    -36.65625
+  ],
+  "1446": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1447": [
+    -Infinity,
+    -Infinity,
+    -23.46875,
+    -Infinity
+  ],
+  "1448": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1449": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1450": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1451": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1452": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1453": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1454": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1455": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1456": [
+    -47.9375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1457": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1458": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1459": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1460": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1461": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1462": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1463": [
+    -Infinity,
+    -33.75,
+    -Infinity,
+    -Infinity
+  ],
+  "1464": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1465": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1466": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1467": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1468": [
+    -20.09375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1469": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1470": [
+    -Infinity,
+    -17.625,
+    -24.609375,
+    -6.12890625
+  ],
+  "1471": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1472": [
+    -Infinity,
+    -16.578125,
+    -15.2890625,
+    -Infinity
+  ],
+  "1473": [
+    -Infinity,
+    -Infinity,
+    -13.6875,
+    -8.546875
+  ],
+  "1474": [
+    -12.21875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1475": [
+    -11.234375,
+    -15.40625,
+    -Infinity,
+    -16.90625
+  ],
+  "1476": [
+    -Infinity,
+    -7.83984375,
+    -28.53125,
+    -Infinity
+  ],
+  "1477": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1478": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1479": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1480": [
+    -18.140625,
+    -50.65625,
+    -Infinity,
+    -9.0703125
+  ],
+  "1481": [
+    -4.93359375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1482": [
+    -3.986328125,
+    -Infinity,
+    -Infinity,
+    -32.25
+  ],
+  "1483": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1484": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1485": [
+    -14.046875,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1486": [
+    -Infinity,
+    -9.2734375,
+    -Infinity,
+    -Infinity
+  ],
+  "1487": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1488": [
+    -Infinity,
+    -12.6796875,
+    -Infinity,
+    -Infinity
+  ],
+  "1489": [
+    -Infinity,
+    -11.0625,
+    -22.0,
+    -Infinity
+  ],
+  "1490": [
+    -Infinity,
+    -Infinity,
+    -0.218505859375,
+    -Infinity
+  ],
+  "1491": [
+    -4.0390625,
+    -13.359375,
+    -9.8359375,
+    -Infinity
+  ],
+  "1492": [
+    -Infinity,
+    -Infinity,
+    -16.546875,
+    -Infinity
+  ],
+  "1493": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -26.671875
+  ],
+  "1494": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1495": [
+    -6.23828125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1496": [
+    -Infinity,
+    -Infinity,
+    -30.8125,
+    -Infinity
+  ],
+  "1497": [
+    -30.3125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1498": [
+    -39.6875,
+    -Infinity,
+    -Infinity,
+    -26.5
+  ],
+  "1499": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1500": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1501": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1502": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -37.40625
+  ],
+  "1503": [
+    -22.4375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1504": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -19.90625
+  ],
+  "1505": [
+    -Infinity,
+    -11.2734375,
+    -Infinity,
+    -6.5546875
+  ],
+  "1506": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -18.625
+  ],
+  "1507": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -7.484375
+  ],
+  "1508": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1509": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -34.28125
+  ],
+  "1510": [
+    -Infinity,
+    -19.0,
+    -Infinity,
+    -Infinity
+  ],
+  "1511": [
+    -Infinity,
+    -61.3125,
+    -Infinity,
+    -Infinity
+  ],
+  "1512": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1513": [
+    -Infinity,
+    -Infinity,
+    -21.4375,
+    -Infinity
+  ],
+  "1514": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -27.421875
+  ],
+  "1515": [
+    -12.453125,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1516": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1517": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1518": [
+    -Infinity,
+    -19.921875,
+    -Infinity,
+    -27.34375
+  ],
+  "1519": [
+    -Infinity,
+    -24.765625,
+    -Infinity,
+    -Infinity
+  ],
+  "1520": [
+    -Infinity,
+    -14.046875,
+    -Infinity,
+    -16.625
+  ],
+  "1521": [
+    -Infinity,
+    -21.296875,
+    -Infinity,
+    -Infinity
+  ],
+  "1522": [
+    -Infinity,
+    -5.41796875,
+    -12.828125,
+    -Infinity
+  ],
+  "1523": [
+    -11.8828125,
+    -6.76171875,
+    -Infinity,
+    -17.65625
+  ],
+  "1524": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1525": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.18359375
+  ],
+  "1526": [
+    -9.9296875,
+    -Infinity,
+    -Infinity,
+    -13.125
+  ],
+  "1527": [
+    -Infinity,
+    -Infinity,
+    -13.921875,
+    -Infinity
+  ],
+  "1528": [
+    -34.09375,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1529": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1530": [
+    -18.171875,
+    -Infinity,
+    -Infinity,
+    -30.875
+  ],
+  "1531": [
+    -Infinity,
+    -5.37890625,
+    -3.24609375,
+    -7.6328125
+  ],
+  "1532": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1533": [
+    -Infinity,
+    -Infinity,
+    -15.421875,
+    -Infinity
+  ],
+  "1534": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1535": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -15.21875
+  ],
+  "1536": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -46.90625
+  ],
+  "1537": [
+    -6.90625,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1538": [
+    -21.015625,
+    -13.2578125,
+    -26.5,
+    -Infinity
+  ],
+  "1539": [
+    -13.421875,
+    -5.51953125,
+    -Infinity,
+    -Infinity
+  ],
+  "1540": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1541": [
+    -Infinity,
+    -Infinity,
+    -35.5625,
+    -Infinity
+  ],
+  "1542": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -21.640625
+  ],
+  "1543": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1544": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1545": [
+    -Infinity,
+    -Infinity,
+    -20.078125,
+    -25.59375
+  ],
+  "1546": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1547": [
+    -Infinity,
+    -26.3125,
+    -Infinity,
+    -Infinity
+  ],
+  "1548": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -28.234375
+  ],
+  "1549": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -26.625
+  ],
+  "1550": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -13.28125
+  ],
+  "1551": [
+    -Infinity,
+    -13.7421875,
+    -Infinity,
+    -7.05859375
+  ],
+  "1552": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -10.84375
+  ],
+  "1553": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -16.515625
+  ],
+  "1554": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1555": [
+    -10.75,
+    -7.12109375,
+    -Infinity,
+    -Infinity
+  ],
+  "1556": [
+    -Infinity,
+    -9.078125,
+    -9.4296875,
+    -Infinity
+  ],
+  "1557": [
+    -12.5390625,
+    -Infinity,
+    -28.484375,
+    -21.796875
+  ],
+  "1558": [
+    -Infinity,
+    -Infinity,
+    -28.75,
+    -Infinity
+  ],
+  "1559": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1560": [
+    -16.25,
+    -29.734375,
+    -Infinity,
+    -10.0546875
+  ],
+  "1561": [
+    -30.703125,
+    -Infinity,
+    -Infinity,
+    -15.265625
+  ],
+  "1562": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1563": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -24.203125
+  ],
+  "1564": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1565": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -Infinity
+  ],
+  "1566": [
+    -Infinity,
+    -Infinity,
+    -Infinity,
+    -6.2265625
+  ],
+  "1567": [
+    -13.5234375,
+    -Infinity,
+    -Infinity,
+    -23.515625
+  ],
+  "1568": [
+    -20.6875,
+    -24.703125,
+    -Infinity,
+    -Infinity
+  ],
+  "1569": [
+    -Infinity,
+    -3.08984375,
+    -32.3125,
+    -Infinity
+  ]
+}

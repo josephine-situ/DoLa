@@ -57,7 +57,11 @@ if __name__ == "__main__":
     parser.add_argument("--repetition_penalty", type=float, default=None)
     parser.add_argument("--early-exit-layers", type=str, default="-1")
     parser.add_argument("--relative_top", type=float, default=0.1)
+    parser.add_argument("--temperature", type=float, default=0.7)
+    parser.add_argument("--top_k", type=int, default=0)
+    parser.add_argument("--top_p", type=float, default=1.0)
     parser.add_argument("--do_sample", action="store_true")
+    parser.add_argument("--dola-avg", action="store_true", help="Use DoLa-avg mode (average over candidate premature layers)")
     args = parser.parse_args()
 
     
@@ -78,6 +82,14 @@ if __name__ == "__main__":
         candidate_premature_layers = None
         if args.repetition_penalty is None:
             args.repetition_penalty = 1.2
+    elif args.dola_avg:
+        print(f"MODE: DoLa-avg decoding with mature layer: {early_exit_layers[-1]} and premature layers: {early_exit_layers[:-1]}")
+        mode = "dola-avg"
+        mature_layer = early_exit_layers[-1]
+        premature_layer = None
+        candidate_premature_layers = early_exit_layers[:-1]
+        if args.repetition_penalty is None:
+            args.repetition_penalty = 1.2
     else:
         print(f"MODE: DoLa decoding with mature layer: {early_exit_layers[-1]} and premature layers: {early_exit_layers[:-1]}")
         mode = "dola"
@@ -93,6 +105,6 @@ if __name__ == "__main__":
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     llm = DoLa(model_name, device, num_gpus, args.max_gpu_memory)
     llm.set_stop_words(["### Human:"])
-    generate_kwargs = dict(do_sample=True, max_new_tokens=1024, temperature=0.7, repetition_penalty=args.repetition_penalty, mode=mode, mature_layer=mature_layer, premature_layer=premature_layer, candidate_premature_layers=candidate_premature_layers, remove_stop_words=True, relative_top=args.relative_top)
+    generate_kwargs = dict(do_sample=True, max_new_tokens=1024, temperature=args.temperature, top_k=args.top_k, top_p=args.top_p, repetition_penalty=args.repetition_penalty, mode=mode, mature_layer=mature_layer, premature_layer=premature_layer, candidate_premature_layers=candidate_premature_layers, remove_stop_words=True, relative_top=args.relative_top)
 
     run_eval(llm, args.model_id, args.question_file, args.answer_file, generate_kwargs)

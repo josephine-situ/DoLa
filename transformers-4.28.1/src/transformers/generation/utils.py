@@ -1108,12 +1108,7 @@ class GenerationMixin:
         if "kwargs" in model_args or "model_kwargs" in model_args:
             model_args |= set(inspect.signature(self.forward).parameters)
         for key, value in model_kwargs.items():
-            if value is not None and key not in model_args:
-                # Make an exception for DoLa custom parameters that are handled separately
-                # These parameters are part of the generate() function signature and are handled
-                # as separate arguments, not part of model_kwargs
-                if key not in ["premature_layer", "mode", "mature_layer", "candidate_premature_layers", "dola_decoding", "dola_avg", "relative_top", "base_layer"]:
-                    unused_model_args.append(key)
+            unused_model_args.append(key)
 
         if unused_model_args:
             raise ValueError(

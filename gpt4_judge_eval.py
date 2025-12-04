@@ -105,6 +105,6 @@ if __name__ == "__main__":
     device = 'cuda' if torch.cuda.is_available() else 'cpu'
     llm = DoLa(model_name, device, num_gpus, args.max_gpu_memory)
     llm.set_stop_words(["### Human:"])
-    generate_kwargs = dict(do_sample=True, max_new_tokens=1024, temperature=args.temperature, top_k=args.top_k, top_p=args.top_p, repetition_penalty=args.repetition_penalty, mode=mode, mature_layer=mature_layer, premature_layer=premature_layer, candidate_premature_layers=candidate_premature_layers, remove_stop_words=True, relative_top=args.relative_top)
+    generate_kwargs = dict(do_sample=True, max_new_tokens=1024, temperature=args.temperature, top_k=args.top_k, top_p=args.top_p, repetition_penalty=args.repetition_penalty, mode=mode, mature_layer=mature_layer, candidate_premature_layers=candidate_premature_layers, remove_stop_words=True, relative_top=args.relative_top)
 
     run_eval(llm, args.model_id, args.question_file, args.answer_file, generate_kwargs)

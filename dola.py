@@ -168,17 +168,6 @@ class DoLa:
                 # Convert to log probabilities
                 outputs = F.log_softmax(answer_logits_slice, dim=-1)
 
-                # print("Question: ", input_text1)
-                # print("Answer: ", input_text2)
-                # print("Full Input: ", input_text)
-                # print("Input IDs: ", input_ids)
-                # print("prefix_ids: ", prefix_ids)
-                # print("continue_ids: ", continue_ids)
-                # print("T_total: ", T_total)
-                # print("T_prompt: ", T_prompt)
-                # print("T_answer: ", T_answer)
-                # print("answer_logprobs_slice.shape: ", answer_logprobs_slice.shape)
-
                 # get logprobs for each token in the answer
                 log_probs = outputs[torch.arange(outputs.shape[0]), continue_ids].sum().item()
                 
@@ -284,5 +273,25 @@ class DoLa:
                     relative_top_mask = self.get_relative_top_filter(mixed_logprobs, relative_top)
                     mixed_logprobs = torch.where(relative_top_mask, relative_top_value, mixed_logprobs)
                 log_probs = mixed_logprobs[torch.arange(mixed_logprobs.shape[0]), continue_ids].sum().item()
+
+            elif mode == 'adaptive-dola':
+                # scale dola effect by the magnitude of the difference between the mature and premature logits
+                dict_outputs, outputs = self.model(
+                    input_ids=input_ids,
+                    return_dict=True,
+                    output_attentions=False,
+                    output_hidden_states=False,
+                    early_exit_layers=candidate_premature_layers + [mature_layer],
+                )
+                mature_probs = F.softmax(dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :], dim=-1)
+                premature_probs  = F.softmax(dict_outputs[premature_layer][0, T_prompt - 1 : T_total - 1, :], dim=-1)
+                
+                alpha = torch.norm(mature_probs - premature_probs, dim=-1) / 2
+
+                print("Alpha shape: ", alpha.shape)
+                print("Alpha: ", alpha)
+                
+                diff_logprobs = torch.log(mature_probs) - alpha*torch.log(premature_probs)
+                log_probs = diff_logprobs[torch.arange(diff_logprobs.shape[0]), continue_ids].sum().item()
 
         return log_probs, (premature_layer_dist if mode == 'dola' else None)

@@ -90,6 +90,7 @@ if __name__ == "__main__":
     parser.add_argument("--relative_top", type=float, default=0.0)
     parser.add_argument("--relative_top_value", type=float, default=-1000.0)
     parser.add_argument("--dola-avg", action="store_true", help="Use DoLa-avg mode (average over candidate premature layers)")
+    parser.add_argument("--adaptive-dola", action="store_true", help="Use adaptive DoLa mode (scale dola effect by the magnitude of the difference between the mature and premature logits)")
     args = parser.parse_args()
     model_name = args.model_name
     num_gpus = args.num_gpus
@@ -119,6 +120,12 @@ if __name__ == "__main__":
         mature_layer = early_exit_layers[-1]
         premature_layer = None
         candidate_premature_layers = early_exit_layers[:-1]
+    elif args.adaptive_dola:
+        print(f"MODE: Adaptive DoLa decoding with mature layer: {early_exit_layers[-1]} and premature layer: {early_exit_layers[0]}")
+        mode = "adaptive-dola"
+        mature_layer = early_exit_layers[1]
+        premature_layer = early_exit_layers[0]
+        candidate_premature_layers = None
     else:
         print(f"MODE: DoLa decoding with mature layer: {early_exit_layers[-1]} and premature layers: {early_exit_layers[:-1]}")
         mode = "dola"

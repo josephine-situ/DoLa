@@ -29,7 +29,7 @@ for i, row in df_ans.iterrows():
         df_target_prob.loc[i, x] = df.loc[i, row['Answer']]
 
         # mask of incorrect answers
-        df_target_penalty.loc[i, x] = (df.loc[i, :].idxmax() == row['Answer'])
+        df_target_penalty.loc[i, x] = (df.loc[i, :].idxmax() != row['Answer'])
         df_target_rank.loc[i, x] = df.loc[i, :].rank(method='min', ascending=False)[row['Answer']]
 
 

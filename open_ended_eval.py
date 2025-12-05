@@ -3,7 +3,7 @@ import pandas as pd
 import re
 
 # 1. Load the JSON data
-file_path = 'results/open_evals/gemini_eval.json'
+file_path = 'results/open_evals/gemini_2_flash_eval.json'
 
 try:
     with open(file_path, 'r') as f:
@@ -24,18 +24,22 @@ if data:
     print("Processing evaluations...")
     
     for entry in data:
-        # Capture the question ID for reference
+        # 1. Capture the question ID
         q_id = entry.get('question_id')
         
-        # Access the nested 'evaluations' dictionary
-        # We use .get({}) to return an empty dict if 'evaluations' is missing
-        evaluations = entry.get('evaluations', {})
-        
-        for model_name, text_output in evaluations.items():
-            # Ensure text_output is a string
-            text_content = str(text_output)
+        # 2. Iterate through ALL items in the dictionary
+        for key, value in entry.items():
             
-            # Extract the rating using regex
+            # 3. SKIP the specific metadata keys (question_id)
+            # We only want to process the model response keys
+            if key == 'question_id':
+                continue
+            
+            # Now we assume 'key' is the model name (e.g., 'dola_dynamic')
+            model_name = key
+            text_content = str(value)
+            
+            # 4. Extract the rating
             match = rating_pattern.search(text_content)
             
             if match:

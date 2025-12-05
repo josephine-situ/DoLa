@@ -17,8 +17,11 @@ DEVICE = "cuda" if torch.cuda.is_available() else "cpu"  # auto GPU if available
 # ----------------------
 # LOAD DATA
 # ----------------------
-df = pd.read_json("data_mc.json", orient="records", lines=True)
-questions = df["Question"].tolist()
+# df = pd.read_json("data_mc.json", orient="records", lines=True)
+df = pd.read_json("./data/vicuna_eval/question.jsonl", lines=True)
+
+# questions = df["Question"].tolist()
+questions = df["text"].tolist()  
 
 # ----------------------
 # LOAD MODEL
@@ -44,5 +47,5 @@ for i in tqdm(range(0, len(questions), BATCH_SIZE), desc="Embedding prompts"):
 # SAVE EMBEDDINGS
 # ----------------------
 embeddings = np.array(embeddings, dtype=np.float32)
-np.save("embed_e5-large-v2.npy", embeddings)
+np.save("./data/embed_e5-large-v2_vicuna_eval.npy", embeddings)
 

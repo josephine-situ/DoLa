@@ -89,7 +89,8 @@ if __name__ == "__main__":
     parser.add_argument("--repetition_penalty", type=float, default=1.0)
     parser.add_argument("--relative_top", type=float, default=0.0)
     parser.add_argument("--relative_top_value", type=float, default=-1000.0)
-    parser.add_argument("--dola-avg", action="store_true", help="Use DoLa-avg mode (average over candidate premature layers)")
+    parser.add_argument("--dola_avg", action="store_true", help="Use DoLa-avg mode (average over candidate premature layers)")
+    parser.add_argument("--adaptive_dola", action="store_true", help="Use adaptive DoLa mode (scale dola effect by the magnitude of the difference between the mature and premature logits)")
     args = parser.parse_args()
     model_name = args.model_name
     num_gpus = args.num_gpus
@@ -107,7 +108,7 @@ if __name__ == "__main__":
         mature_layer = None
         premature_layer = None
         candidate_premature_layers = None
-    elif len(early_exit_layers) == 2:
+    elif len(early_exit_layers) == 2 and not args.adaptive_dola and not args.dola_avg:
         print(f"MODE: DoLa-static decoding with mature layer: {early_exit_layers[1]} and premature layer: {early_exit_layers[0]}")
         mode = "dola-static"
         mature_layer = early_exit_layers[1]
@@ -119,6 +120,12 @@ if __name__ == "__main__":
         mature_layer = early_exit_layers[-1]
         premature_layer = None
         candidate_premature_layers = early_exit_layers[:-1]
+    elif args.adaptive_dola:
+        print(f"MODE: Adaptive DoLa decoding with mature layer: {early_exit_layers[-1]} and premature layer: {early_exit_layers[0]}")
+        mode = "adaptive-dola"
+        mature_layer = early_exit_layers[1]
+        premature_layer = early_exit_layers[0]
+        candidate_premature_layers = None
     else:
         print(f"MODE: DoLa decoding with mature layer: {early_exit_layers[-1]} and premature layers: {early_exit_layers[:-1]}")
         mode = "dola"
@@ -167,7 +174,7 @@ if __name__ == "__main__":
 
             # score each choice
             for ans in sample["choices"]:
-                lp, _ = llm.lm_score(prompt, ans, **generate_kwargs)
+                lp, _, alpha = llm.lm_score(prompt, ans, **generate_kwargs)
                 logprobs.append(lp)
 
             # compute MCQ stats (ONLY for printing later)
@@ -180,7 +187,7 @@ if __name__ == "__main__":
 
             # store ONLY what you want saved
             logprob_dict[idx] = logprobs
-
+            type_stats[t]["alpha"] += alpha.mean().cpu().numpy()
 
     # finalize printing
     for t, stats in type_stats.items():
@@ -189,6 +196,7 @@ if __name__ == "__main__":
             acc = stats["accuracy"] / c
             mc2 = stats["mc2"] / c
             mrr = stats["mrr"] / c
+            alpha = stats["alpha"] / c
         else:
             acc = mc2 = mrr = 0.0
 
@@ -198,7 +206,19 @@ if __name__ == "__main__":
         print(f"MC2: {mc2:.4f}")
         print(f"MRR: {mrr:.4f}")
         print(f"Count: {c}")
+        print(f"Alpha: {alpha:.4f}")
 
+    def total_accuracy(type_stats):
+            total_correct = 0
+            total_count = 0
+
+            for t, stats in type_stats.items():
+                total_correct += stats["accuracy"]
+                total_count  += stats["count"]
+
+            return total_correct / total_count
+
+    print("Total accuracy: ", total_accuracy(type_stats))
 
     # save final logprob dictionary only
     output_file = args.output_path if ".json" in args.output_path else args.output_path + ".json"

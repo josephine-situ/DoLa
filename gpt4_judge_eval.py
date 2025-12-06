@@ -62,6 +62,7 @@ if __name__ == "__main__":
     parser.add_argument("--top_p", type=float, default=1.0)
     parser.add_argument("--do_sample", action="store_true")
     parser.add_argument("--dola-avg", action="store_true", help="Use DoLa-avg mode (average over candidate premature layers)")
+    parser.add_argument("--adaptive-dola", action="store_true", help="Use adaptive-DoLa mode (scale contrastive effect by divergence)")
     args = parser.parse_args()
 
     
@@ -75,11 +76,18 @@ if __name__ == "__main__":
         if args.repetition_penalty is None:
             args.repetition_penalty = 1.0
     elif len(early_exit_layers) == 2:
-        print(f"MODE: DoLa-static decoding with mature layer: {early_exit_layers[1]} and premature layer: {early_exit_layers[0]}")
-        mode = "dola-static"
-        mature_layer = early_exit_layers[1]
-        premature_layer = early_exit_layers[0]
-        candidate_premature_layers = None
+        if args.adaptive_dola:
+            print(f"MODE: Adaptive-DoLa decoding with mature layer: {early_exit_layers[1]} and premature layer: {early_exit_layers[0]}")
+            mode = "adaptive-dola"
+            mature_layer = early_exit_layers[1]
+            premature_layer = early_exit_layers[0]
+            candidate_premature_layers = None
+        else:
+            print(f"MODE: DoLa-static decoding with mature layer: {early_exit_layers[1]} and premature layer: {early_exit_layers[0]}")
+            mode = "dola-static"
+            mature_layer = early_exit_layers[1]
+            premature_layer = early_exit_layers[0]
+            candidate_premature_layers = None
         if args.repetition_penalty is None:
             args.repetition_penalty = 1.2
     elif args.dola_avg:

@@ -174,7 +174,7 @@ if __name__ == "__main__":
 
             # score each choice
             for ans in sample["choices"]:
-                lp, _ = llm.lm_score(prompt, ans, **generate_kwargs)
+                lp, _, alpha = llm.lm_score(prompt, ans, **generate_kwargs)
                 logprobs.append(lp)
 
             # compute MCQ stats (ONLY for printing later)
@@ -187,7 +187,7 @@ if __name__ == "__main__":
 
             # store ONLY what you want saved
             logprob_dict[idx] = logprobs
-
+            type_stats[t]["alpha"] += alpha.mean().cpu().numpy()
 
     # finalize printing
     for t, stats in type_stats.items():
@@ -196,6 +196,7 @@ if __name__ == "__main__":
             acc = stats["accuracy"] / c
             mc2 = stats["mc2"] / c
             mrr = stats["mrr"] / c
+            alpha = stats["alpha"] / c
         else:
             acc = mc2 = mrr = 0.0
 
@@ -205,7 +206,7 @@ if __name__ == "__main__":
         print(f"MC2: {mc2:.4f}")
         print(f"MRR: {mrr:.4f}")
         print(f"Count: {c}")
-
+        print(f"Alpha: {alpha:.4f}")
 
     def total_accuracy(type_stats):
             total_correct = 0

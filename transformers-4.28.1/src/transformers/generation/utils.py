@@ -1461,6 +1461,7 @@ class GenerationMixin:
                 candidate_premature_layers=candidate_premature_layers,
                 relative_top=relative_top,
                 dola_avg=dola_avg,
+                dola_adaptive=dola_adaptive,
                 streamer=streamer,
                 **model_kwargs,
             )
@@ -3388,6 +3389,7 @@ class GenerationMixin:
         candidate_premature_layers: Optional[List[int]] = None,
         relative_top: float = 0.1,
         dola_avg: Optional[bool] = None,
+        dola_adaptive: Optional[bool] = None,
         logits_processor: Optional[LogitsProcessorList] = None,
         stopping_criteria: Optional[StoppingCriteriaList] = None,
         logits_warper: Optional[LogitsProcessorList] = None,
@@ -3628,6 +3630,18 @@ class GenerationMixin:
                 
                 logits = final_logits - base_logits
                 next_token_logits = logits
+            elif dola_adaptive:
+                # Adaptive DoLa decoding - scale contrastive effect by divergence
+                mature_logits = dict_outputs[mature_layer][:, -1, :]
+                premature_logits = dict_outputs[base_layer][:, -1, :]
+                mature_probs = F.softmax(mature_logits, dim=-1)
+                premature_probs = F.softmax(premature_logits, dim=-1)
+                
+                # Compute adaptive scaling factor based on L2 norm of probability difference
+                alpha = (torch.norm(mature_probs - premature_probs, dim=-1) / np.sqrt(2))
+                
+                # Scale the contrastive effect by alpha
+                next_token_logits = mature_logits - alpha.unsqueeze(1) * premature_logits
             else:
                 # 1. Stacking all premature_layers into a new dimension
                 stacked_premature_layers = torch.stack([dict_outputs[i][:, -1, :] for i in candidate_premature_layers], dim=0)

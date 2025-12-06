@@ -286,7 +286,7 @@ class DoLa:
                 mature_probs = F.softmax(dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :], dim=-1)
                 premature_probs  = F.softmax(dict_outputs[premature_layer][0, T_prompt - 1 : T_total - 1, :], dim=-1)
 
-                alpha = torch.norm(mature_probs - premature_probs, dim=-1) / 2
+                alpha = (torch.norm(mature_probs - premature_probs, dim=-1) / 2) ** 0.7
 
                 diff_logprobs = torch.log(mature_probs) - alpha.unsqueeze(1)*torch.log(premature_probs)
                 log_probs = diff_logprobs[torch.arange(diff_logprobs.shape[0]), continue_ids].sum().item()

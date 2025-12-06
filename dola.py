@@ -94,6 +94,14 @@ class DoLa:
                                         mature_layer=mature_layer, candidate_premature_layers=candidate_premature_layers,
                                         top_p=top_p, top_k=top_k, temperature=temperature, stopping_criteria=self.stopping_criteria, relative_top=relative_top,
                                         dola_avg=True, **kwargs)
+            elif mode == 'adaptive-dola':
+                assert mature_layer is not None, "mature_layer must be specified"
+                assert premature_layer is not None, "premature_layer must be specified"
+                outputs = self.model.generate(input_ids, max_length=max_len, num_return_sequences=1,
+                                        output_scores=True, return_dict_in_generate=True, dola_decoding=True,
+                                        mature_layer=mature_layer, base_layer=premature_layer,
+                                        top_p=top_p, top_k=top_k, temperature=temperature, stopping_criteria=self.stopping_criteria, relative_top=relative_top,
+                                        dola_adaptive=True, **kwargs)
             sequences, scores = outputs.sequences, outputs.scores
 
             # skip the tokens in the input prompt
@@ -128,6 +136,7 @@ class DoLa:
         return scores_normalized < probs_thresh
 
     def lm_score(self, input_text1, input_text2, pmi=False, max_new_tokens=256, top_p=0.95, top_k=0, temperature=0.8, mature_layer=None, premature_layer=None, candidate_premature_layers=[], mode='baseline', verbose=True, remove_stop_words=False, relative_top=0.1, relative_top_value=-1000.0, post_softmax=True, **kwargs):
+        alpha = None
         with torch.no_grad():
             input_text = input_text1 + input_text2
             input_ids = self.tokenizer(input_text, return_tensors="pt").input_ids.to(self.device)
@@ -167,17 +176,6 @@ class DoLa:
 
                 # Convert to log probabilities
                 outputs = F.log_softmax(answer_logits_slice, dim=-1)
-
-                # print("Question: ", input_text1)
-                # print("Answer: ", input_text2)
-                # print("Full Input: ", input_text)
-                # print("Input IDs: ", input_ids)
-                # print("prefix_ids: ", prefix_ids)
-                # print("continue_ids: ", continue_ids)
-                # print("T_total: ", T_total)
-                # print("T_prompt: ", T_prompt)
-                # print("T_answer: ", T_answer)
-                # print("answer_logprobs_slice.shape: ", answer_logprobs_slice.shape)
 
                 # get logprobs for each token in the answer
                 log_probs = outputs[torch.arange(outputs.shape[0]), continue_ids].sum().item()
@@ -285,4 +283,21 @@ class DoLa:
                     mixed_logprobs = torch.where(relative_top_mask, relative_top_value, mixed_logprobs)
                 log_probs = mixed_logprobs[torch.arange(mixed_logprobs.shape[0]), continue_ids].sum().item()
 
-        return log_probs, (premature_layer_dist if mode == 'dola' else None)
+            elif mode == 'adaptive-dola':
+                # scale dola effect by the magnitude of the difference between the mature and premature logits
+                dict_outputs, outputs = self.model(
+                    input_ids=input_ids,
+                    return_dict=True,
+                    output_attentions=False,
+                    output_hidden_states=False,
+                    early_exit_layers=[premature_layer, mature_layer],
+                )
+                mature_probs = F.softmax(dict_outputs[mature_layer][0, T_prompt - 1 : T_total - 1, :], dim=-1)
+                premature_probs  = F.softmax(dict_outputs[premature_layer][0, T_prompt - 1 : T_total - 1, :], dim=-1)
+
+                alpha = (torch.norm(mature_probs - premature_probs, dim=-1) / np.sqrt(2))
+
+                diff_logprobs = torch.log(mature_probs) - alpha.unsqueeze(1)*torch.log(premature_probs)
+                log_probs = diff_logprobs[torch.arange(diff_logprobs.shape[0]), continue_ids].sum().item()
+
+        return log_probs, (premature_layer_dist if mode == 'dola' else None), alpha
